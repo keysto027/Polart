@@ -9,9 +9,8 @@ export default function Home() {
         <title>Polart Estudio!</title>
         <link rel="icon" href="/POLART.ico" />
       </Head>
-
       <main>
-        <Header title="Welcome to my Page !" />
+        <Header title="Welcome to my Page ok compai !" />
         <p className="description">
           Esto es Polart Estudio<code>pages/Mantenimiento</code>
         </p>
