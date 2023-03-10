@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to my Page !" />
         <p className="description">
-          Hola soy tu nuevo amigo <code>pages/index.js</code>
+          Esto es Polart Estudio<code>pages/Mantenimiento</code>
         </p>
       </main>
 
