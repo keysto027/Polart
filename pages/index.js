@@ -12,7 +12,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my Page ok compai !" />
         <p className= "tania"> 
-          veremos como arreglamos esta vaina
+          veremos como arreglamos esta vaina ok
         </p>
         <p className="description">
           Esto es Polart Estudio<code>pages/Mantenimiento</code>
