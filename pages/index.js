@@ -13,7 +13,7 @@ export default function Home() {
       <img src="/POLARTb.jpg" alt="carga" className="carga" />
         <Header title="WELCOME " />
         <p className= "tania">
-        NUEVO MUNDO hice un cambio
+        NUEVO MUNDO 
         </p>
         <p>
               Esto es Polart Estudio<code>pages/Mantenimiento</code>
