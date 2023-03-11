@@ -14,8 +14,11 @@ export default function Home() {
         <p className= "tania">
         NUEVO MUNDO
         </p>
-        <p className="description">
-          Esto es Polart Estudio<code>pages/Mantenimiento</code>
+        <p>
+              Esto es Polart Estudio<code>pages/Mantenimiento</code>
+            <img src="/giphy.gif" alt="carga" className="carga" />
+       
+
         </p>
       </main>
 
