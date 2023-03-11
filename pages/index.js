@@ -10,9 +10,9 @@ export default function Home() {
         <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
-        <Header title="Welcome to my Page ok compai !" />
-        <p className= "tania"> 
-          veremos como arreglamos esta vaina ok
+        <Header title="WELCOME " />
+        <p className= "tania">
+        NUEVO MUNDO
         </p>
         <p className="description">
           Esto es Polart Estudio<code>pages/Mantenimiento</code>
