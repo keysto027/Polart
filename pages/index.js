@@ -10,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
+      <img src="/POLARTb.jpg" alt="carga" className="carga" />
         <Header title="WELCOME " />
         <p className= "tania">
         NUEVO MUNDO
