@@ -16,7 +16,7 @@ export default function Home() {
         </p>
         <p>
               Esto es Polart Estudio<code>pages/Mantenimiento</code>
-            <img src="/giphy.gif" alt="carga" className="carga" />
+            
        
 
         </p>
