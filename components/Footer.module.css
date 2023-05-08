@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  border-top: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #161616;
+}
+
+.logo {
+  align-items: center;
+  height: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+
+.copyright {
+   color: #777;
+   font-size: 0.6rem;
+     display: block;
+  margin-top: 0.5rem;
+ }
