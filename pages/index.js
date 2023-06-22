@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Netflix</title>
-        <link rel="icon" href="/netflix.ico" />
+        <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
         <Header title="POLART" />
