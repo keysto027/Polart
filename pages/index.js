@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Netflix</title>
-        <link rel="icon" href="/netflix.ico" />
+        <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
         <Header title="POLART" />
@@ -40,7 +40,7 @@ export default function Home() {
           padding: 15px 30px;
           font-size: 20px;
           font-weight: bold;
-          background-color: #e50914;
+          background-color: yellow; /* Cambia el color aquí */
           color: #fff;
           border: none;
           border-radius: 4px;
