@@ -10,9 +10,9 @@ export default function Home() {
         <link rel="icon" href="/netflix.ico" />
       </Head>
       <main>
-        <Header title="NETFLIX" />
+        <Header title="POLART" />
         <p className="tagline">
-          ¡Disfruta de miles de películas y series en streaming!
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
         <button className="cta-button">Comenzar</button>
       </main>
