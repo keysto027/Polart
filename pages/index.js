@@ -19,7 +19,8 @@ export default function Home() {
 
       <Footer />
       <style jsx>{`
-        .container {
+       
+       .container {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -48,7 +49,7 @@ export default function Home() {
         }
 
         .cta-button:hover {
-          background-color: #b2070e;
+          background-color: rgb(69,104,196);
         }
       `}</style>
     </div>
