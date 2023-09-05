@@ -109,12 +109,15 @@ export default function Home() {
         <title>POLART ESTUDIOS</title>
         <link rel="icon" href="/POLART.ico" />
       </Head>
+
       <main>
+        
         <div className="header-and-button">
           <Header title="POLART" style={{ float: 'left', marginRight: '20px' }} />
-          <button className="cta-button">Comenzar</button>
-        </div>
-        <nav className="nav">
+          
+        
+
+         <nav className="nav">
           <Link href="/">
             <a className="nav-link">Inicio</a>
           </Link>
@@ -130,7 +133,10 @@ export default function Home() {
           <Link href="/servicios">
             <a className="nav-link">Servicios</a>
           </Link>
-        </nav>
+         </nav>
+
+        </div>
+        <button className="cta-button">Comenzar</button>
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
