@@ -46,6 +46,7 @@ export default function Home() {
         color: #000000; /* Color del texto de los enlaces de navegación */
         text-decoration: none;
         margin-right: 20px;
+        font-size: 15px;
         background-color: rgb(255, 187, 0);
         border: none;
         border-radius: 25px;
