@@ -30,7 +30,7 @@ export default function Home() {
         </Link>
       </nav>
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR no FAVOR ESPERE!
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
         <button className="cta-button">Comenzar</button>
       </main>
