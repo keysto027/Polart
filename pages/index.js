@@ -180,9 +180,9 @@ export default function Home() {
 
         .header-and-button {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           background-color: rgb(255, 187, 0);
-          padding: 100%; 
+          padding: 20; 
         }
 
         .nav {
