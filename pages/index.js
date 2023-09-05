@@ -47,6 +47,8 @@ export default function Home() {
         text-decoration: none;
         margin-right: 20px;
         background-color: rgb(255, 187, 0);
+        border: none;
+       border-radius: 4px;
 
        .container {
           display: flex;
