@@ -182,7 +182,7 @@ export default function Home() {
           display: flex;
           align-items: flex-start;
           background-color: rgb(255, 187, 0);
-          padding: 20; 
+          padding: 100%; 
         }
 
         .nav {
