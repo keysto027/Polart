@@ -193,6 +193,7 @@ export default function Home() {
           color: #000000;
           text-decoration: none;
           margin-right: 20px;
+          padding: 10px 15px;
           font-size: 15px;
           font-weight: bold;
           background-color: rgb(255, 187, 0);
