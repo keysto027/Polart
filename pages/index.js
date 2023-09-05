@@ -38,6 +38,15 @@ export default function Home() {
       <Footer />
       <style jsx>{`
        
+       .nav {
+        display: flex;
+      }
+
+      .nav-link {
+        color: #fff; /* Color del texto de los enlaces de navegación */
+        text-decoration: none;
+        margin-right: 20px;
+        
        .container {
           display: flex;
           flex-direction: column;
