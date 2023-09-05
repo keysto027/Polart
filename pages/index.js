@@ -110,8 +110,10 @@ export default function Home() {
         <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
-        <Header title="POLART" style={{ float: 'left', marginRight: '20px' }} />
-        <button className="cta-button">Comenzar</button>
+        <div className="header-and-button">
+          <Header title="POLART" style={{ float: 'left', marginRight: '20px' }} />
+          <button className="cta-button">Comenzar</button>
+        </div>
         <nav className="nav">
           <Link href="/">
             <a className="nav-link">Inicio</a>
@@ -166,6 +168,11 @@ export default function Home() {
 
         .cta-button:hover {
           background-color: rgb(69, 104, 196);
+        }
+
+        .header-and-button {
+          display: flex;
+          align-items: center;
         }
 
         .nav {
