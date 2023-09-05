@@ -136,9 +136,11 @@ export default function Home() {
          </nav>
 
         </div>
-        <button className="cta-button">Comenzar</button>
+        
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
+
+          <button className="cta-button">Comenzar</button>
         </p>
       </main>
 
