@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/POLART.ico" />
       </Head>
       <main>
+      <button className="cta-button">Comenzar</button>
         <Header title="POLART" />
         <nav className="nav">
         <Link href="/">
@@ -32,7 +33,7 @@ export default function Home() {
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
-        <button className="cta-button">Comenzar</button>
+        
       </main>
 
       <Footer />
