@@ -30,7 +30,7 @@ export default function Home() {
         </Link>
       </nav>
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR nooFAVOR ESPERE!
+          ¡EN MANTENIMIENTO POR no FAVOR ESPERE!
         </p>
         <button className="cta-button">Comenzar</button>
       </main>
@@ -43,12 +43,16 @@ export default function Home() {
       }
 
       .nav-link {
-        color: #fff; /* Color del texto de los enlaces de navegación */
+        color: #000000; /* Color del texto de los enlaces de navegación */
         text-decoration: none;
         margin-right: 20px;
         background-color: rgb(255, 187, 0);
         border: none;
-       border-radius: 4px;
+        border-radius: 25px;
+
+        .nav-link:hover {
+          background-color: rgb(69,104,196);
+        }
 
        .container {
           display: flex;
