@@ -180,7 +180,7 @@ export default function Home() {
 
         .header-and-button {
           display: flex;
-          padding: 15px 30px;
+          padding: 0.75rem;
           align-items: flex-start;
           background-color: rgb(255, 187, 0);
           padding: 100%; 
