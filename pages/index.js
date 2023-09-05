@@ -160,9 +160,7 @@ export default function Home() {
           font-size: 24px;
           margin-top: 20px;
           text-align: center;
-          padding: 0.75rem;
-          display: flex;
-
+          
         }
 
         .cta-button {
@@ -186,7 +184,7 @@ export default function Home() {
           padding: 0.75rem;
           align-items: flex-start;
           background-color: rgb(255, 187, 0);
-          
+        
         }
 
         .nav {
