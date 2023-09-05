@@ -181,6 +181,8 @@ export default function Home() {
         .header-and-button {
           display: flex;
           align-items: center;
+          background-color: rgb(255, 187, 0);
+          padding: 20px; 
         }
 
         .nav {
