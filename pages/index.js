@@ -25,7 +25,7 @@ export default function Home() {
         <Link href="/empleo">
           <a className="nav-link">Empleo</a>
         </Link>
-        <Link href="/servicios/mmg">
+        <Link href="/servicios">
           <a className="nav-link">Servicios</a>
         </Link>
       </nav>
