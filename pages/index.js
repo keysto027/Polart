@@ -48,9 +48,11 @@ export default function Home() {
         text-decoration: none;
         margin-right: 20px;
         font-size: 15px;
+        font-weight: bold;
         background-color: rgb(255, 187, 0);
         border: none;
         border-radius: 25px;
+        cursor: pointer;
 
         .nav-link:hover {
           background-color: rgb(69,104,196);
