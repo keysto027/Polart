@@ -19,34 +19,6 @@ export default function Home() {
 
       <Footer />
       <style jsx>{`
-import Link from 'next/link'; // Importa el módulo Link para la navegación
-
-export default function Header({ title }) {
-  return (
-    <header className="header">
-      <div className="logo">{title}</div>
-      <nav className="nav">
-        <Link href="/">
-          <a className="nav-link">Inicio</a>
-        </Link>
-        <Link href="/nosotros">
-          <a className="nav-link">Nosotros</a>
-        </Link>
-        <Link href="/sugerencias">
-          <a className="nav-link">Sugerencias</a>
-        </Link>
-        <Link href="/empleo">
-          <a className="nav-link">Empleo</a>
-        </Link>
-        <Link href="/servicios">
-          <a className="nav-link">Servicios</a>
-        </Link>
-      </nav>
-    </header>
-  );
-}
-
-
        
        .container {
           display: flex;
