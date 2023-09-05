@@ -198,7 +198,7 @@ export default function Home() {
           padding: 10px 15px;
           font-size: 15px;
           font-weight: bold;
-          background-color: rgb(255, 187, 0);
+          background-color: rgb(230, 171, 11);
           border: none;
           border-radius: 25px;
           cursor: pointer;
