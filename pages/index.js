@@ -139,7 +139,7 @@ export default function Home() {
         
 
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
+          ¡EN MANTENIMIENTO POR no FAVOR ESPERE!
 
         </p>
         <button className="cta-button">Comenzar</button>
