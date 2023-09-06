@@ -168,7 +168,7 @@ export default function Home() {
           padding: 15px 30px;
           font-size: 20px;
           font-weight: bold;
-          background-color: rgb(235, 26, 26);
+          background-color: rgb(255, 187, 0); 
           color: #fff;
           border: none;
           border-radius: 4px;
@@ -181,9 +181,9 @@ export default function Home() {
 
         .header-and-button {
           display: flex;
-          padding: 0.75rem;
+          padding: rem;
           align-items: center;
-          background-color: rgb(255, 187, 0);
+          background-color:  rgb(235, 26, 26);;
         
         }
 
