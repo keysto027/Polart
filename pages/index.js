@@ -135,16 +135,18 @@ export default function Home() {
           </Link>
          </nav>
         </div>
+        </div>
         <div>
+        
         
 
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR no  FAVOR ESPERE!
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
 
         </p>
         <button className="cta-button">Comenzar</button>
         </div>
-        </div>
+        
       </main>
 
       <Footer />
