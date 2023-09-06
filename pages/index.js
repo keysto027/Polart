@@ -136,19 +136,83 @@ export default function Home() {
          </nav>
 
         </div>
-        <div className="contenido">
-        <img src="/POLARTb.jpg" alt="Polart backG" className={styles.backG} />
+        
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
 
         </p>
         <button className="cta-button">Comenzar</button>
-        </div>
       </main>
 
       <Footer />
       <style jsx>{`
-       
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background-color: #000;
+          color: #fff;
+        }
+
+        .tagline {
+          font-size: 24px;
+          margin-top: 20px;
+          text-align: center;
+          
+        }
+
+        .cta-button {
+          margin-top: 40px;
+          padding: 15px 30px;
+          font-size: 20px;
+          font-weight: bold;
+          background-color: rgb(255, 187, 0); 
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        .cta-button:hover {
+          background-color: rgb(69, 104, 196);
+        }
+
+        .header-and-button {
+          color: #000000;
+          width: 169%;
+          height: 30px;
+          border-top: 1px solid #000000;
+          display: flex;
+          padding: 5%;
+          align-items: center;
+          background-color:  rgb(255, 187, 0);
+          justify-content: space-evenly;
+        
+        }
+
+        .nav {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+        }
+
+        .nav-link {
+          color: #000000;
+          text-decoration: none;
+          margin-right: 20px;
+          padding: 10px 15px;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: rgb(230, 171, 11);
+          border: none;
+          border-radius: 25px;
+          cursor: pointer;
+        }
+
+        .nav-link:hover {
+          background-color: rgb(69, 104, 196);
         }
       `}</style>
     </div>
