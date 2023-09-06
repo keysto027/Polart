@@ -180,6 +180,9 @@ export default function Home() {
         }
 
         .header-and-button {
+          width: 100%;
+          height: 150px;
+          border-top: 1px solid #000000;
           display: flex;
           padding: rem;
           align-items: center;
