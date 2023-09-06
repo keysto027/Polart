@@ -136,7 +136,7 @@ export default function Home() {
          </nav>
         </div>
         <div>
-        <img src="/POLARTb.jpg" alt="Escultura" />
+        <img src="/POLARTb.jpg" alt="Escultura" className={styles.Escultura}/>
 
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
@@ -148,6 +148,14 @@ export default function Home() {
 
       <Footer />
       <style jsx>{`
+
+          .Escultura {
+           align-items: center;
+           height: 3em;
+           margin: 0 auto;
+            display: block;
+          }
+
         .container {
           display: flex;
           flex-direction: column;
