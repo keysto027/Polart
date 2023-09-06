@@ -180,13 +180,14 @@ export default function Home() {
         }
 
         .header-and-button {
-          width: 100%;
-          height: 150px;
+          width: 169%;
+          height: 30px;
           border-top: 1px solid #000000;
           display: flex;
-          padding: 100%;
+          padding: 1%;
           align-items: center;
-          background-color:  rgb(235, 26, 26);;
+          background-color:  rgb(255, 187, 0);
+          justify-content: space-evenly;
         
         }
 
