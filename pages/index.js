@@ -184,7 +184,7 @@ export default function Home() {
           height: 30px;
           border-top: 1px solid #000000;
           display: flex;
-          padding: 1%;
+          padding: 5%;
           align-items: center;
           background-color:  rgb(255, 187, 0);
           justify-content: space-evenly;
