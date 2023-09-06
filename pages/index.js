@@ -139,7 +139,7 @@ export default function Home() {
         
 
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR no FAVOR ESPERE!
+          ¡EN MANTENIMIENTO POR  FAVOR ESPERE!
 
         </p>
         <button className="cta-button">Comenzar</button>
@@ -153,7 +153,7 @@ export default function Home() {
         
         .fondo {
           background-image: url("/POLARTb.jpg"); /* Ruta de la imagen de fondo */
-          background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
+          background-size: 100%; /* Escala la imagen para cubrir todo el contenedor */
           background-position: center; /* Centra la imagen en el contenedor */
           background-repeat: no-repeat; /* Evita la repetición de la imagen */
         }
