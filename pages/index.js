@@ -113,7 +113,7 @@ export default function Home() {
       <main>
         
         <div className="header-and-button">
-          <Header title="POLART" style={{ float: 'left', marginRight: '50px' }} />
+          <Header title="POLART.V2" style={{ float: 'left', marginRight: '50px' }} />
           
         
 
