@@ -113,7 +113,7 @@ export default function Home() {
       <main>
         
         <div className="header-and-button">
-          <Header title="         POLART ESTUDIOS  v1      " style={{ float: 'left', marginRight: '50px' }} />
+          <Header title="         POLART ESTUDIOS        " style={{ float: 'left', marginRight: '50px' }} />
           
         
 
@@ -134,14 +134,16 @@ export default function Home() {
             <a className="nav-link">Servicios</a>
           </Link>
          </nav>
-
         </div>
-        
+        <div>
+        <img src="/POLARTb.jpg" alt="Escultura" />
+
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
 
         </p>
         <button className="cta-button">Comenzar</button>
+        </div>
       </main>
 
       <Footer />
