@@ -152,6 +152,9 @@ export default function Home() {
 
         
         .fondo {
+          display: flex;
+          padding: 5%;
+          align-items: center;
           background-image: url("/POLARTb.jpg"); /* Ruta de la imagen de fondo */
           background-size: 100%; /* Escala la imagen para cubrir todo el contenedor */
           background-position: center; /* Centra la imagen en el contenedor */
