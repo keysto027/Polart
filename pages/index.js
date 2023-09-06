@@ -111,7 +111,7 @@ export default function Home() {
       </Head>
 
       <main>
-        
+        <div className="fondo">
         <div className="header-and-button">
           <Header title="         POLART ESTUDIOS        " style={{ float: 'left', marginRight: '50px' }} />
           
@@ -136,7 +136,7 @@ export default function Home() {
          </nav>
         </div>
         <div>
-        <img src="/POLARTb.jpg" alt="Escultura" className={styles.Escultura}/>
+        
 
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE!
@@ -144,17 +144,19 @@ export default function Home() {
         </p>
         <button className="cta-button">Comenzar</button>
         </div>
+        </div>
       </main>
 
       <Footer />
       <style jsx>{`
 
-          .Escultura {
-           align-items: center;
-           height: 3em;
-           margin: 0 auto;
-            display: block;
-          }
+        
+        .fondo {
+          background-image: url("/POLARTb.jpg"); /* Ruta de la imagen de fondo */
+          background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
+          background-position: center; /* Centra la imagen en el contenedor */
+          background-repeat: no-repeat; /* Evita la repetición de la imagen */
+        }
 
         .container {
           display: flex;
