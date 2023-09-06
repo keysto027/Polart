@@ -113,7 +113,7 @@ export default function Home() {
       <main>
         
         <div className="header-and-button">
-          <Header title="POLART.V2          " style={{ float: 'left', marginRight: '50px' }} />
+          <Header title="POLART ESTUDIOS        " style={{ float: 'left', marginRight: '50px' }} />
           
         
 
@@ -180,6 +180,7 @@ export default function Home() {
         }
 
         .header-and-button {
+          color: #000000;
           width: 169%;
           height: 30px;
           border-top: 1px solid #000000;
