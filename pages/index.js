@@ -97,10 +97,10 @@ export default function Home() {
 
 /////////////////////////////////
 */
-import Head from 'next/head'
-import Link from 'next/link'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Link from 'next/link';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export default function Home() {
   return (
@@ -112,101 +112,73 @@ export default function Home() {
 
       <main>
         <div className="fondo">
-        <div className="header-and-button">
-          <Header title="         POLART ESTUDIOS        " style={{ float: 'left', marginRight: '50px' }} />
-          
-        
+          <div className="header-and-button">
+            <Header
+              title="POLART ESTUDIOS"
+              style={{ float: 'left', marginRight: '50px' }}
+            />
 
-         <nav className="nav">
-          <Link href="/">
-            <a className="nav-link">Inicio</a>
-          </Link>
-          <Link href="/nosotros">
-            <a className="nav-link">Nosotros</a>
-          </Link>
-          <Link href="/sugerencias">
-            <a className="nav-link">Sugerencias</a>
-          </Link>
-          <Link href="/empleo">
-            <a className="nav-link">Empleo</a>
-          </Link>
-          <Link href="/servicios">
-            <a className="nav-link">Servicios</a>
-          </Link>
-         </nav>
-        </div>
+            <nav className="nav">
+              <Link href="/">
+                <a className="nav-link">Inicio</a>
+              </Link>
+              <Link href="/nosotros">
+                <a className="nav-link">Nosotros</a>
+              </Link>
+              <Link href="/sugerencias">
+                <a className="nav-link">Sugerencias</a>
+              </Link>
+              <Link href="/empleo">
+                <a className="nav-link">Empleo</a>
+              </Link>
+              <Link href="/servicios">
+                <a className="nav-link">Servicios</a>
+              </Link>
+            </nav>
+          </div>
         </div>
         <div>
-        
-        
-
-        <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
-
-        </p>
-        <button className="cta-button">Comenzar</button>
+          <p className="tagline">¡EN MANTENIMIENTO POR FAVOR ESPERE!</p>
+          <button className="cta-button">Comenzar</button>
         </div>
-        
       </main>
 
       <Footer />
+
       <style jsx>{`
-
-        
-        .fondo {
-          display: flex;
-          padding: 5%;
-          align-items: center;
-          background-image: url("/POLARTb.jpg"); /* Ruta de la imagen de fondo */
-          background-size: 100%; /* Escala la imagen para cubrir todo el contenedor */
-          background-position: center; /* Centra la imagen en el contenedor */
-          background-repeat: no-repeat; /* Evita la repetición de la imagen */
-        }
-
         .container {
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          height: 100vh;
+          min-height: 100vh;
           background-color: #000;
           color: #fff;
         }
 
-        .tagline {
-          font-size: 24px;
-          margin-top: 20px;
-          text-align: center;
-          
-        }
-
-        .cta-button {
-          margin-top: 40px;
-          padding: 15px 30px;
-          font-size: 20px;
-          font-weight: bold;
-          background-color: rgb(255, 187, 0); 
-          color: #fff;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-
-        .cta-button:hover {
-          background-color: rgb(69, 104, 196);
-        }
-
-        .header-and-button {
-          color: #000000;
-          width: 169%;
-          height: 30px;
-          border-top: 1px solid #000000;
+        .fondo {
+          width: 100%;
+          max-width: 100%;
+          height: 30rem;
           display: flex;
           padding: 5%;
           align-items: center;
-          background-color:  rgb(255, 187, 0);
+          background-image: url("/POLARTb.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        .header-and-button {
+          width: 100%;
+          max-width: 100%;
+          height: 30rem;
+          border-top: 1px solid #000;
+          display: flex;
+          padding: 5%;
+          align-items: center;
+          background-color: rgb(255, 187, 0);
           justify-content: space-evenly;
-        
         }
 
         .nav {
@@ -216,7 +188,7 @@ export default function Home() {
         }
 
         .nav-link {
-          color: #000000;
+          color: #000;
           text-decoration: none;
           margin-right: 20px;
           padding: 10px 15px;
@@ -231,7 +203,25 @@ export default function Home() {
         .nav-link:hover {
           background-color: rgb(69, 104, 196);
         }
+
+        @media screen and (max-width: 768px) {
+          /* Estilos para pantallas más pequeñas */
+          .fondo {
+            height: 20rem;
+          }
+
+          .header-and-button {
+            flex-direction: column;
+            height: auto;
+            text-align: center;
+          }
+
+          .nav {
+            justify-content: center;
+            margin-top: 20px;
+          }
+        }
       `}</style>
     </div>
-  )
+  );
 }
