@@ -159,7 +159,7 @@ export default function Home() {
         .fondo {
           width: 100%;
           max-width: 100%;
-          height: 30rem;
+          height: 40rem; /* Aumenta el tamaño para PC */
           display: flex;
           padding: 5%;
           align-items: center;
@@ -172,7 +172,7 @@ export default function Home() {
         .header-and-button {
           width: 100%;
           max-width: 100%;
-          height: 30rem;
+          height: 40rem; /* Aumenta el tamaño para PC */
           border-top: 1px solid #000;
           display: flex;
           padding: 5%;
@@ -205,9 +205,9 @@ export default function Home() {
         }
 
         @media screen and (max-width: 768px) {
-          /* Estilos para pantallas más pequeñas */
+          /* Estilos para dispositivos móviles */
           .fondo {
-            height: 20rem;
+            height: 20rem; /* Reduce el tamaño para dispositivos móviles */
           }
 
           .header-and-button {
