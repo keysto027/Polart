@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>COSTA NORTE</title>
+        <title>COSTA </title>
         <link rel="icon" href="/Costa.ico" />
       </Head>
 
