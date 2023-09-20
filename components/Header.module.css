@@ -1,7 +1,22 @@
 .logo {
+    
     align-items: center;
     height: 3em;
     margin: 0 auto;
     display: block;
   }
   
+  .services-dropdown {
+    display: none; /* Oculta la lista por defecto */
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+  
+  .nav-services:hover .services-dropdown {
+    display: block; /* Muestra la lista al pasar el mouse sobre "Servicios" */
+  }
