@@ -107,17 +107,15 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>COSTA NORTE</title>
-        
         <link rel="icon" href="/Costa.ico" />
       </Head>
 
       <main>
         <div className="fondo">
           <div className="header-and-button">
-            <Header
-              title="Costa Norte"
-              style={{ float: 'left', marginRight: '50px' }}
-            />
+            <Header>
+              <img src="/Logo.png" alt="Costa norte" />
+            </Header>
 
             <nav className="nav">
               <Link href="/">
@@ -138,13 +136,9 @@ export default function Home() {
             </nav>
           </div>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </main>
-
-
-     
     </div>
   );
 }
+
