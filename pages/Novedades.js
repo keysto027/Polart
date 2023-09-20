@@ -13,7 +13,7 @@ export default function Novedades() {
       </Head>
 
       <main>
-      <Header />
+      <Header logoSrc="/Logo.png" />
         <div className="fondo">
        
 
