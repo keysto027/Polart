@@ -1,6 +1,7 @@
 // Importa los módulos necesarios
 import Head from 'next/head';
 import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 // Componente de la página Nosotros
 export default function Nosotros() {
@@ -12,6 +13,7 @@ export default function Nosotros() {
       </Head>
 
       <main>
+      <Header />
         <div className="fondo">
 
           <section className="nosotros-section">
@@ -26,7 +28,7 @@ export default function Nosotros() {
           </section>
         </div>
       </main>
-
+      <Footer />
     </div>
   );
 }
