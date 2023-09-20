@@ -1,6 +1,7 @@
 // Importa los módulos necesarios
 import Head from 'next/head';
 import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 // Componente de la página Novedades
 export default function Novedades() {
@@ -12,6 +13,7 @@ export default function Novedades() {
       </Head>
 
       <main>
+      <Header />
         <div className="fondo">
        
 
@@ -27,7 +29,7 @@ export default function Novedades() {
           </section>
         </div>
       </main>
-
+      <Footer />
     
     </div>
   );
