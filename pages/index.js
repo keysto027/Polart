@@ -106,7 +106,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>POLART ESTUDIOS</title>
+        <title>POLART </title>
+        
         <link rel="icon" href="/POLART.ico" />
       </Head>
 
@@ -139,6 +140,7 @@ export default function Home() {
         </div>
         <div>
           <p className="tagline">¡EN MANTENIMIENTO POR FAVOR ESPERE!</p>
+          <p>saasdasd</p>
           <button className="cta-button">Comenzar</button>
         </div>
       </main>
