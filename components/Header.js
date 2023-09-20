@@ -21,11 +21,11 @@ export default function Header({ logoSrc }) {
         <Link href="/empleo">
           <a className="nav-link">Empleo</a>
         </Link>
-        <div className="nav-services">
+        <div className={styles.nav-services}>
           <Link href="/servicios">
             <a className="nav-link">Servicios</a>
           </Link>
-          <ul className="services-dropdown">
+          <ul className={styles.services-dropdown}>
             <li>
               <Link href="/medicos-especialistas">
                 <a className="nav-link">Médicos especialistas</a>
