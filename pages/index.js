@@ -31,6 +31,9 @@ export default function Home() {
         </Link>
       </nav>
         
+        <p className="tagline">
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE a Cailito!
+        </p>
         
       </main>
 
