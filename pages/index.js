@@ -15,7 +15,7 @@ export default function Home() {
        <Header logoSrc="/Logo.png" />
        <br></br>        
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE! 
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
         
       </main>
