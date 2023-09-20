@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>POLART ESTUDIOS</title>
+        <title>Costa Norte</title>
         <link rel="icon" href="/Costa.ico" />
       </Head>
       <main>
        <Header logoSrc="/Logo.png" />
         
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE a Cailito!
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE! 
         </p>
         
       </main>
