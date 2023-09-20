@@ -16,7 +16,7 @@ export default function Nosotros() {
       <Header logoSrc="/Logo.png" />
         <div className="fondo">
 
-          <section className="nosotros-section">
+          <section className="nosotros">
             <h1>Sobre Nosotros</h1>
             <h2>NUESTROS INICIOS</h2>
             <p>
