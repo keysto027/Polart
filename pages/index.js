@@ -108,7 +108,7 @@ export default function Home() {
       <Head>
         <title>COSTA NORTE</title>
         
-        <link rel="icon" href="/Costa.png" />
+        <link rel="icon" href="/Costa.ico" />
       </Head>
 
       <main>
