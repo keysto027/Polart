@@ -5,10 +5,10 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.container}>
-          <img src="/POLART.png" alt="Polart Logo" className={styles.logo} />
+          <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
           <p className={styles.text}>
             <span>
-              Copyright © 2023 Polart Estudio - Todos los derechos
+              Copyright © 2023 Costa Norte - Todos los derechos
               reservados.
             </span>
           </p>
