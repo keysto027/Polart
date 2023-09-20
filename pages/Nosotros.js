@@ -12,9 +12,6 @@ export default function Nosotros() {
 
       <main>
         <div className="fondo">
-          <Header>
-            <img src="/Logo.png" alt="Costa norte" />
-          </Header>
 
           <section className="nosotros-section">
             <h1>Sobre Nosotros</h1>

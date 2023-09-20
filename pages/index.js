@@ -125,7 +125,7 @@ export default function Home() {
                 <a className="nav-link">Nosotros</a>
               </Link>
               <Link href="/Novedades">
-                <a className="nav-link">Novedades</a>
+                <a className="nav-link">Novedadess</a>
               </Link>
               <Link href="/empleo">
                 <a className="nav-link">Empleo</a>
