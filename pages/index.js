@@ -113,10 +113,7 @@ export default function Home() {
       <main>
         <div className="fondo">
           <div className="header-and-button">
-            <Header>
-            title="Costa Norte"
-              style={{ float: 'left', marginRight: '50px' }}
-            </Header>
+          <Header title="costa norte" />
 
             <nav className="nav">
               <Link href="/">
