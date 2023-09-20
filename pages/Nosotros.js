@@ -13,7 +13,7 @@ export default function Nosotros() {
       </Head>
 
       <main>
-      <Header />
+      <Header logoSrc="/Logo.png" />
         <div className="fondo">
 
           <section className="nosotros-section">
