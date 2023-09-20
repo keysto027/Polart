@@ -22,7 +22,7 @@ export default function Home() {
 
 
         <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE! 
+          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
         </p>
         
       </main>
