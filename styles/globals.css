@@ -32,7 +32,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150%;
+  width: 100%;
 }
 
 .nav-link {
