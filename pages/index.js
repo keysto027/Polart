@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>POLART </title>
+        <title>COSTA NORTE</title>
         
         <link rel="icon" href="/POLART.ico" />
       </Head>
