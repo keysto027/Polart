@@ -119,7 +119,7 @@ export default function Home() {
 
             <nav className="nav">
               <Link href="/">
-                <a className="nav-link">Inicio</a>
+                <a className="nav-link">Inicia</a>
               </Link>
               <Link href="/Nosotros">
                 <a className="nav-link">Nosotros</a>
