@@ -4,7 +4,7 @@ import styles from './Header.module.css'
 export default function Header({ logoSrc  }) {
   return (
     <div>
-      <header>
+      <header className={styles.header}>
       <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
 
       </header>
