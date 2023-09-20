@@ -108,14 +108,14 @@ export default function Home() {
       <Head>
         <title>COSTA NORTE</title>
         
-        <link rel="icon" href="/POLART.ico" />
+        <link rel="icon" href="/Costa.png" />
       </Head>
 
       <main>
         <div className="fondo">
           <div className="header-and-button">
             <Header
-              title="POLART ESTUDIOS"
+              title="Costa Norte"
               style={{ float: 'left', marginRight: '50px' }}
             />
 
