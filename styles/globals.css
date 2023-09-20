@@ -28,7 +28,7 @@ main {
 
 .nav {
   background-color: #99f002;
-  padding: 1rem 17rem;
+  padding: 1rem 33rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ main {
   padding: 0.5rem 1rem;
   border-radius: 1.5rem;
   margin-right: 11px;
-  background-color:#d2cece
+  background-color:#f5eeeebc
   
 }
 
