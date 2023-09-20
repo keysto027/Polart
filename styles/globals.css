@@ -27,7 +27,7 @@ main {
 
 
 .nav {
-  background-color: #d47e7e;
+  background-color: #ffffff;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
@@ -41,6 +41,7 @@ main {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  background-color:#d2cece
 }
 
 .nav-link:hover {
