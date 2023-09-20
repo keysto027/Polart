@@ -114,7 +114,8 @@ export default function Home() {
         <div className="fondo">
           <div className="header-and-button">
             <Header>
-              <img src="/Logo.png" alt="Costa norte" className={styles.logo} />
+            title="Costa Norte"
+              style={{ float: 'left', marginRight: '50px' }}
             </Header>
 
             <nav className="nav">
