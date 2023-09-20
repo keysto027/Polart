@@ -13,7 +13,14 @@ export default function Home() {
       </Head>
       <main>
        <Header logoSrc="/Logo.png" />
-       <br></br>        
+
+       <div className="imgi">
+
+       <img src="/index.jpg" alt="Costa Norte"/>
+      
+       </div>
+
+
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE! 
         </p>
