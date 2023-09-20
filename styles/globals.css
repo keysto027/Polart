@@ -55,7 +55,15 @@ main {
 
 .fondo{
 
-background-color: #ffffff;
+ background-color: #ffffff;
+
+
+}
+
+.imgi{
+
+width: 250px;
+height: 250px;
 
 
 }

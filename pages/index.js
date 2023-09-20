@@ -16,7 +16,7 @@ export default function Home() {
 
        <div className="imgi">
 
-       <img src="/index.jpg" alt="Costa Norte"/>
+        <img src="/index.jpg" alt="Costa Norte"/>
       
        </div>
 
