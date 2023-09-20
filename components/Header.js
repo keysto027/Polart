@@ -1,9 +1,15 @@
 import Link from 'next/link'
+import styles from './Header.module.css'
 
-export default function Header({ title }) {
+export default function Header({ logoSrc  }) {
   return (
     <div>
-      <h1 className="title">{title}</h1>
+      <header>
+      <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
+
+      </header>
+      
+      
       <nav className="nav">
         <Link href="/">
           <a className="nav-link">Inicio</a>
