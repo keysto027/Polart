@@ -12,7 +12,8 @@ export default function Home() {
         <link rel="icon" href="/Costa.ico" />
       </Head>
       <main>
-       <Header logoSrc="/Logo.png" />        
+       <Header logoSrc="/Logo.png" />
+       <br></br>        
         <p className="tagline">
           ¡EN MANTENIMIENTO POR FAVOR ESPERE! 
         </p>
