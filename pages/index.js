@@ -121,7 +121,7 @@ export default function Home() {
 
             <nav className="nav">
               <Link href="/">
-                <a className="nav-link">Inicioa</a>
+                <a className="nav-link">Inicio</a>
               </Link>
               <Link href="/nosotros">
                 <a className="nav-link">Nosotros</a>
