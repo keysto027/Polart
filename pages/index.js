@@ -140,8 +140,6 @@ export default function Home() {
         </div>
         <div>
           
-          
-          <button className="cta-button">Comenzar</button>
         </div>
       </main>
 
