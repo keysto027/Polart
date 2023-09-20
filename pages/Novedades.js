@@ -1,5 +1,6 @@
 // Importa los módulos necesarios
 import Head from 'next/head';
+import Header from '@components/Header'
 
 // Componente de la página Novedades
 export default function Novedades() {
@@ -12,9 +13,7 @@ export default function Novedades() {
 
       <main>
         <div className="fondo">
-          <Header>
-            <img src="/Logo.png" alt="Costa norte" />
-          </Header>
+       
 
           <section className="novedades-section">
             <h1>Novedades</h1>
