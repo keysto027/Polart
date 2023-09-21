@@ -15,12 +15,12 @@ export default function Home() {
        <Header logoSrc="/Logo.png" />
 
        <div className="imgi">
-        |<img src="/index.jpg" alt="Costa Norte"/>
+        <img src="/index.jpg" alt="Costa Norte"/>
+        <div>
+            <h1>sada</h1>
+        </div>
        </div>
 
-        <p className="tagline">
-          ¡EN MANTENIMIENTO POR FAVOR ESPERE!
-        </p>
         
       </main>
 
