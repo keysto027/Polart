@@ -63,7 +63,7 @@ main {
 .wrp{
 
   width: 100%;
-  height: 100px;
+  height: 25rem;
   position: relative;
 
 }
@@ -71,7 +71,7 @@ main {
 .portada{
 
   width: 100%;
-  height: 100px;
+  height: 350px;
   background-image: url("/index.jpg");
   background-attachment: fixed;
   background-size: cover;
