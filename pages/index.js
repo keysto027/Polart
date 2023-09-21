@@ -24,6 +24,14 @@ export default function Home() {
             </div>
           </div>
        </div>
+
+       <div className="background2">
+          <div className="portada2">
+              <div className="contenido2">
+                
+              </div>
+          </div>
+       </div>
         
       </main>
 
