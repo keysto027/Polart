@@ -7,6 +7,10 @@ export default function Header({ logoSrc  }) {
       <header className={styles.header}>
       <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
 
+      
+      </header>
+      
+      
       <nav className={styles.nav}>
         <Link href="/">
           <a className={styles.navlink}>Inicio</a>
@@ -25,10 +29,6 @@ export default function Header({ logoSrc  }) {
           
         </Link>
       </nav>
-      </header>
-      
-      
-      
     </div>
 
   
