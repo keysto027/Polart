@@ -71,7 +71,7 @@ main {
 .portada{
 
   width: 100%;
-  height: 100%;
+  height: 100px;
   background-image: url("/index.jpg");
   background-attachment: fixed;
   background-size: cover;
