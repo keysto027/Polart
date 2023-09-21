@@ -62,6 +62,9 @@ main {
 
 .imgi{
 
+display: flex;
+height: 500px;
+
 
 
 }
