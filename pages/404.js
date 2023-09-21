@@ -10,7 +10,9 @@ export default function _404() {
 <main>
 
 <Header logoSrc="/Logo.png" />
-
+<div>
+                <h1>404 ERROR |Pagina no encontrada</h1>
+              </div>
 </main>
     
   )}
