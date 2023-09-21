@@ -39,7 +39,7 @@
     
   }
   
-  .nav-link {
+  .navlink {
     color: #000;
     font-size: 1rem;
     text-decoration: none;
@@ -52,7 +52,7 @@
   }
   
   
-  .nav-link:hover {
+  .navlink:hover {
     color: #ffffff;
     background-color: rgb(45, 152, 65);
   }
