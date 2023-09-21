@@ -10,21 +10,21 @@ export default function Header({ logoSrc  }) {
       </header>
       
       
-      <nav className="nav">
+      <nav className={styles.nav}>
         <Link href="/">
-          <a className="nav-link">Inicio</a>
+          <a className={styles.nav-link}>Inicio</a>
         </Link>
         <Link href="/Nosotros">
-          <a className="nav-link">Nosotros</a>
+          <a className={styles.nav-link}>Nosotros</a>
         </Link>
         <Link href="/Novedades">
-          <a className="nav-link">Novedades</a>
+          <a className={styles.nav-link}>Novedades</a>
         </Link>
         <Link href="/empleo">
-          <a className="nav-link">Empleo</a>
+          <a className={styles.nav-link}>Empleo</a>
         </Link>
         <Link href="/servicios">
-          <a className="nav-link">Servicios</a>
+          <a className={styles.nav-link}>Servicios</a>
           
         </Link>
       </nav>
