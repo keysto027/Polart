@@ -1,5 +1,5 @@
 import '@styles/globals.css'
-import '@styles/Nosotros.css'
+import '@styles/nosotros.css'
 import '@styles/Novedades.css'
 
 
