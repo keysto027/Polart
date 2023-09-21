@@ -11,7 +11,7 @@ export default function Nosotros() {
         <title>Nosotros - COSTA NORTE</title>
         <link rel="icon" href="/Costa.ico" />
       </Head>
-
+      
       <main>
       <Header logoSrc="/Logo.png" />
         <div className="fondo">
