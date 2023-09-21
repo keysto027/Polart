@@ -14,7 +14,7 @@ export default function Header({ logoSrc  }) {
         <Link href="/">
           <a className="nav-link">Inicio</a>
         </Link>
-        <Link href="/nosotros">
+        <Link href="/Nosotros">
           <a className="nav-link">Nosotros</a>
         </Link>
         <Link href="/Novedades">
