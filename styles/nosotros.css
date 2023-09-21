@@ -4,3 +4,15 @@ background-color: aliceblue;
 color: blue;
 
 }
+
+.navlink {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    margin-right: 11px;
+    background-color:#a82020;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajusta los valores según tus preferencias */
+    
+  }
