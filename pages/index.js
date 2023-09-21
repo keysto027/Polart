@@ -14,13 +14,16 @@ export default function Home() {
       <main>
        <Header logoSrc="/Logo.png" />
 
-       <div className="imgi">
-        <img src="/index.jpg" alt="Costa Norte"/>
-        <div>
-            <h1>sada</h1>
-        </div>
+       <div className="wrp">
+          <div className="portada"></div>
+          <div className="contenido">
+            <div className="info">
+              <div>
+                <h1>El santuario del bienestar</h1>
+              </div>
+            </div>
+          </div>
        </div>
-
         
       </main>
 
