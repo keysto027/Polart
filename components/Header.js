@@ -12,19 +12,19 @@ export default function Header({ logoSrc  }) {
       
       <nav className={styles.nav}>
         <Link href="/">
-          <a className={styles.nav-link}>Inicio</a>
+          <a className={styles.nav-Link}>Inicio</a>
         </Link>
         <Link href="/Nosotros">
-          <a className={styles.nav-link}>Nosotros</a>
+          <a className={styles.nav-Link}>Nosotros</a>
         </Link>
         <Link href="/Novedades">
-          <a className={styles.nav-link}>Novedades</a>
+          <a className={styles.nav-Link}>Novedades</a>
         </Link>
         <Link href="/empleo">
-          <a className={styles.nav-link}>Empleo</a>
+          <a className={styles.nav-Link}>Empleo</a>
         </Link>
         <Link href="/servicios">
-          <a className={styles.nav-link}>Servicios</a>
+          <a className={styles.nav-Link}>Servicios</a>
           
         </Link>
       </nav>
