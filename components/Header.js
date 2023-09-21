@@ -10,7 +10,7 @@ export default function Header({ logoSrc  }) {
       </header>
       
       
-      <nav className={styles.nav}>
+      <nav className="nav">
         <Link href="/">
           <a className="nav-link">Inicio</a>
         </Link>
