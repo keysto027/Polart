@@ -80,8 +80,6 @@
     width: calc(1200px);
     min-height: calc(100vh - 280px);
     min-height: 300px;
-    background: rgba(255,255,255,0.5);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -107,12 +105,12 @@
     border: 1px solid rgba(255,255,255,0.25);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
-    min-height: 130px;
+    min-height: 100px;
   }
 
   .header .logo{
 
-    width: 200px;
+    width: 320px;
     
   }
 
@@ -139,13 +137,15 @@
 
   }
 
-  .header ul li a:hover{
+  .header ul li a:hover,.active{
 
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    background: #34911724;
+    box-shadow: 24%
+
 
   }
 
+  
 
 
 
