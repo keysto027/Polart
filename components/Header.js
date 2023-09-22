@@ -25,16 +25,7 @@ export default function Header({ logoSrc  }) {
         
         <Link href="/servicios">
           <a className={styles.navlink}>Servicios</a>
-          <div className={styles.submenu}>
-          
-            <Link href="/servicios/servicio1">
-              <a className={styles.submenuLink}>Servicio 1</a>
-            </Link>
-            <Link href="/servicios/servicio2">
-              <a className={styles.submenuLink}>Servicio 2</a>
-            </Link>
-
-          </div>
+         
         </Link>
         
         <Link href="/empleo">
