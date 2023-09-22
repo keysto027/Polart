@@ -25,16 +25,7 @@ export default function Home() {
           </div>
        </div>
 
-       <div className="wrp2">
-          <div className="portada2"></div>
-          <div className="contenido2">
-            <div className="info2">
-              <div>
-                <h1>Brindado servicios desde 1996</h1>
-              </div>
-            </div>
-          </div>
-       </div>
+     
 
        
         
