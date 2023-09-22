@@ -2,12 +2,6 @@ import Link from 'next/link'
 import styles from './Header.module.css'
 
 export default function Header({ logoSrc  }) {
-  const [showSubmenu, setShowSubmenu] = useState(false);
-
-  // Función para mostrar u ocultar el submenú de Servicios
-  const toggleSubmenu = () => {
-    setShowSubmenu(!showSubmenu);
-  };
 
   return (
     <div>
