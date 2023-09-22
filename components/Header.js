@@ -49,7 +49,7 @@ export default function Header({ logoSrc  }) {
 
     <section className={styles.section}>
       <div class={styles.container}>
-        <header className={styles.Header}>
+        <header className={styles.header}>
           <a href="#" class={styles.Logo}>Logo</a>
             <ul>
               <li><a href="#">Inicio</a></li>

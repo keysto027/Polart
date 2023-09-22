@@ -65,22 +65,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
   background: url("/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  PADDING: 100%;
+  padding: 100%;
   }
 
   .container{
 
     position: relative;
-    width: calc(400px);
+    width: calc(1000px);
     min-height: calc(100vh - 280px);
     min-height: 300px;
     background: rgba(255,255,255,0.5);
-    box-shadow: 0 15px 35px rgba(255,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -95,11 +95,16 @@
     top: -40px;
     right: 20px;
     left: 20px;
-    padding: flex;
+    padding: -10px 50px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(255,255,255,0.2);
-    box-shadow: 0 15px 35px rgba(255,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    min-height: 50px;
   }
 
 
