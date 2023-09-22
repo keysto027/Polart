@@ -74,24 +74,12 @@
   min-width: 100%;
   }
 
-  .container{
 
-    position: relative;
-    width: calc(1200px);
-    min-height: calc(100vh - 280px);
-    min-height: 300px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    
-  }
 
   .header{
 
     position: absolute;
-    top: -40px;
+    top: 7px;
     right: 20px;
     left: 20px;
     padding: -10px 50px;
