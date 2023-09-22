@@ -14,7 +14,10 @@ export default function Home() {
       <main>
        <Header logoSrc="/Logo.png" />
 
-      
+       <div className="content">
+          <h2>Costa Norte</h2>
+          <p>Brindando atencion medica de</p>
+        </div>
 
       
 
