@@ -57,31 +57,3 @@
     color: #ffffff;
     background-color: rgb(45, 152, 65);
   }
-  /* Estilos del submenú de Servicios */
-.submenu {
-  background-color: #555;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 35px; /* Ajusta la posición del submenú */
-  left: 0;
-  display: none; /* Por defecto, el submenú está oculto */
-}
-
-.submenuLink {
-  text-decoration: none;
-  color: #fff;
-  margin-right: 10px;
-}
-
-/* Estilos para mostrar el submenú cuando se pasa el mouse por encima de "Servicios" */
-.navlink:hover + .submenu,
-.submenu:hover {
-  display: block;
-}
-
-/* Estilos para animación del submenú (opcional) */
-.submenu {
-  transition: all 0.3s ease-in-out;
-}

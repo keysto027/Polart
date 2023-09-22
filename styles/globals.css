@@ -75,12 +75,12 @@ main {
 
 .contenido .info h1{
 
-  color: #fedd05;
+  color: #ffffff;
   font-size: 50px;
-  text-shadow: 0 1px 10px rgba(0,0,0,.4);
-  margin-bottom: 339px;
+  text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+  margin-bottom: 25px;
   letter-spacing: 1px;
-  margin-left: -35rem;
+
 }
 
 .container{
