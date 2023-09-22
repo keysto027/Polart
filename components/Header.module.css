@@ -3,6 +3,7 @@
   background-image: linear-gradient(180deg,#07f8cc80,#07f8cc00);
   
   
+  
 }
 
 .logo {
@@ -29,13 +30,12 @@
   }
 
   .nav {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 1rem 33rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    
+    width: 94%;
+    justify-content: flex-end;
     
   }
   
