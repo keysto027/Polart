@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import react from "react";
 
 // Componente de la página Nosotros
 export default function Nosotros() {

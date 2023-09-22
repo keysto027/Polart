@@ -96,13 +96,11 @@ main {
 
 .portada2{
 
-  width: 100%;
+  width: 300px;
   height: 350px;
   background-color: rgb(33, 104, 52);
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url("/index2.jpg");
-
+  
+  
 }
 
 .contenido2{
