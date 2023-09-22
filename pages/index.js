@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
       <main>
        <Header logoSrc="/Logo.png" />
-
-       <div className="wrp">
+      </main>
+      <div className="wrp">
           <div className="portada"></div>
           <div className="contenido">
             <div className="info">
@@ -24,11 +24,6 @@ export default function Home() {
             </div>
           </div>
        </div>
-
-      
-
-      </main>
-
       <Footer />
     </div>
   );
