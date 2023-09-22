@@ -13,6 +13,10 @@ export default function _404() {
 <div>
                 <h1>404 ERROR |Pagina no encontrada</h1>
               </div>
+
+              <Footer />
 </main>
+
+  
     
   )}
