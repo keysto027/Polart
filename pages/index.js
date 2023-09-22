@@ -19,7 +19,7 @@ export default function Home() {
           <div className="contenido">
             <div className="info">
               <div>
-                <h1>EL santuario del bienestar</h1>
+                
               </div>
             </div>
           </div>

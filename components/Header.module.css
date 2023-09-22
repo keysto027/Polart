@@ -70,13 +70,14 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 100%;
+  padding: 50px;
+  min-width: 100%;
   }
 
   .container{
 
     position: relative;
-    width: calc(1000px);
+    width: calc(1200px);
     min-height: calc(100vh - 280px);
     min-height: 300px;
     background: rgba(255,255,255,0.5);
@@ -104,9 +105,38 @@
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.25);
-    min-height: 50px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    min-height: 130px;
   }
 
+  .header .logo{
+
+    width: 200px;
+    
+  }
+
+  .header ul{
+
+    display: flex;
+
+  }
+
+  .header ul li{
+
+    list-style: none;
+    margin: 0 10px;
+  
+  }
+
+  .header ul li a{
+
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 8px 15px;
+
+  }
 
 
 

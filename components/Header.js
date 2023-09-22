@@ -50,7 +50,7 @@ export default function Header({ logoSrc  }) {
     <section className={styles.section}>
       <div class={styles.container}>
         <header className={styles.header}>
-          <a href="#" class={styles.Logo}>Logo</a>
+        <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Nosotros</a></li>
