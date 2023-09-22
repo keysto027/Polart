@@ -31,7 +31,7 @@
   }
 
   .nav {
-    background-color: #fff;
+    background-image: linear-gradient(291deg,#349117,#6a6a6a00);
     padding: 1rem 33rem;
     display: flex;
     align-items: center;
