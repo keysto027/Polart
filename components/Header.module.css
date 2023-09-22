@@ -135,6 +135,14 @@
     font-weight: 500;
     color: black;
     padding: 8px 15px;
+    border-radius: 25px;
+
+  }
+
+  .header ul li a:hover{
+
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 
   }
 
