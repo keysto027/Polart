@@ -14,16 +14,7 @@ export default function Home() {
       <main>
        <Header logoSrc="/Logo.png" />
       </main>
-      <div className="wrp">
-          <div className="portada"></div>
-          <div className="contenido">
-            <div className="info">
-              <div>
-                <h1>El santuario del bienestar</h1>
-              </div>
-            </div>
-          </div>
-       </div>
+     
       <Footer />
     </div>
   );
