@@ -47,10 +47,10 @@ export default function Header({ logoSrc  }) {
     //   </nav>
     // </div>
 
-    <section className="seccion">
-      <div class="container">
-        <header>
-          <a href="#" class="logo">Logo</a>
+    <section className={styles.section}>
+      <div class={styles.container}>
+        <header className={styles.Header}>
+          <a href="#" class={styles.Logo}>Logo</a>
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Nosotros</a></li>
