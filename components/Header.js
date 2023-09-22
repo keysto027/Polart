@@ -2,7 +2,6 @@ import Link from 'next/link'
 import styles from './Header.module.css'
 
 export default function Header({ logoSrc  }) {
-
   return (
     <div>
       <header className={styles.header}>
@@ -23,26 +22,21 @@ export default function Header({ logoSrc  }) {
         <Link href="/Novedades">
           <a className={styles.navlink}>Novedades</a>
         </Link>
-
-        {/* Agrega un enlace para mostrar/ocultar el submenú de Servicios */}
-        <a className={styles.navlink} onClick={toggleSubmenu}>
-          Servicios
-        </a>
-
-        {/* Muestra el submenú de Servicios si showSubmenu es verdadero */}
-        {showSubmenu && (
+        
+        <Link href="/servicios">
+          <a className={styles.navlink}>Servicios</a>
           <div className={styles.submenu}>
-            {/* Agrega enlaces a las páginas de Servicios */}
+          
             <Link href="/servicios/servicio1">
               <a className={styles.submenuLink}>Servicio 1</a>
             </Link>
             <Link href="/servicios/servicio2">
               <a className={styles.submenuLink}>Servicio 2</a>
             </Link>
-            {/* Agrega más enlaces de servicios aquí */}
-          </div>
-        )}
 
+          </div>
+        </Link>
+        
         <Link href="/empleo">
           <a className={styles.navlink}>Empleo</a>
         </Link>
