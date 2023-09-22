@@ -14,18 +14,10 @@ export default function Home() {
       <main>
        <Header logoSrc="/Logo.png" />
 
-       <div className="wrp">
-          <div className="portada"></div>
-          <div className="contenido">
-            <div className="info">
-              <div>
-                
-              </div>
-            </div>
-          </div>
-       </div>
+      
 
       
+
       </main>
      
       <Footer />
