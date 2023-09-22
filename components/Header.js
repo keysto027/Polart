@@ -25,7 +25,15 @@ export default function Header({ logoSrc  }) {
         </Link>
         <Link href="/servicios">
           <a className={styles.navlink}>Servicios</a>
-          
+        </Link>
+        <Link href="/Sucursales">
+          <a className={styles.navlink}>Sucursales</a>
+        </Link>
+        <Link href="/Contacto">
+          <a className={styles.navlink}>Contacto</a>
+        </Link>
+        <Link href="/Resultados">
+          <a className={styles.navlink}>Resultados</a>
         </Link>
       </nav>
     </div>
