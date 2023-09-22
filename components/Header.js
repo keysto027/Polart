@@ -22,14 +22,18 @@ export default function Header({ logoSrc  }) {
         <Link href="/Novedades">
           <a className={styles.navlink}>Novedades</a>
         </Link>
-        
+
+      
         <Link href="/servicios">
           <a className={styles.navlink}>Servicios</a>
          
         </Link>
-        
+      
         <Link href="/empleo">
           <a className={styles.navlink}>Empleo</a>
+        </Link>
+        <Link href="/servicios">
+          <a className={styles.navlink}>Servicios</a>
         </Link>
         <Link href="/Sucursales">
           <a className={styles.navlink}>Sucursales</a>
