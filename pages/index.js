@@ -25,10 +25,7 @@ export default function Home() {
           </div>
        </div>
 
-      <div className="container">
-          <img className="img" src="seccion2.jpg"></img>
-      </div>
-
+      
       </main>
      
       <Footer />
