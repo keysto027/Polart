@@ -22,24 +22,13 @@ export default function Header({ logoSrc  }) {
         <Link href="/Novedades">
           <a className={styles.navlink}>Novedades</a>
         </Link>
-<<<<<<< HEAD
-=======
-        
+
+      
         <Link href="/servicios">
           <a className={styles.navlink}>Servicios</a>
-          <div className={styles.submenu}>
-          
-            <Link href="/servicios/servicio1">
-              <a className={styles.submenuLink}>Servicio 1</a>
-            </Link>
-            <Link href="/servicios/servicio2">
-              <a className={styles.submenuLink}>Servicio 2</a>
-            </Link>
-
-          </div>
+         
         </Link>
-        
->>>>>>> parent of 077ae17 (Update Header.js)
+      
         <Link href="/empleo">
           <a className={styles.navlink}>Empleo</a>
         </Link>
