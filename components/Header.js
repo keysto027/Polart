@@ -54,11 +54,11 @@ export default function Header({ logoSrc  }) {
             <ul>
               <li><a href="/">Inicio</a></li>
               <li><a href="/Nosotros">Nosotros</a></li>
-              <li><a href="#">Novedades</a></li>
-              <li><a href="#">Sucursales</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Empleo</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="/Servicios">Servicios</a></li>
+              <li><a href="/Novedades">Novedades</a></li>
+              <li><a href="/Sucursales">Sucursales</a></li>
+              <li><a href="/Empleo">Empleo</a></li>
+              <li><a href="/Contacto">Contacto</a></li>
               
             </ul>
         </header>
