@@ -5,12 +5,14 @@ export default function Header({ logoSrc  }) {
   return (
     <div>
       <header className={styles.header}>
-      <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
+        <div>
 
+        </div>
       </header>
       
       
       <nav className={styles.nav}>
+      <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
         <Link href="/">
           <a className={styles.navlink}>Inicio</a>
         </Link>
