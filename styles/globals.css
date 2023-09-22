@@ -35,11 +35,7 @@ main {
 }
 
 .container{
-  position: relative;
-  width: calc(1200px);
-  min-height: calc(100vh - 280px);
-  min-height: 300px;
-  border-radius: 20px;
+  
   background: rgba(255,255,255,0.5);
   box-shadow: 0 15px 35px rgba(0,0,0,0.05);
 
