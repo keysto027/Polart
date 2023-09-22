@@ -53,7 +53,7 @@ export default function Header({ logoSrc  }) {
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
             <ul>
               <li><a href="/">Inicio</a></li>
-              <li><a href="/Nosotros">Nosatros</a></li>
+              <li><a href="/Nosotros">Nosotros</a></li>
               <li><a href="/Servicios">Servicios</a></li>
               <li><a href="/Novedades">Novedades</a></li>
               <li><a href="/Sucursales">Sucursales</a></li>
