@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
       <main>
        <Header logoSrc="/Logo.png" />
-<<<<<<< HEAD
 
        <div className="wrp">
           <div className="portada"></div>
@@ -30,8 +29,6 @@ export default function Home() {
           <img className="img" src="seccion2.jpg"></img>
       </div>
 
-=======
->>>>>>> e3027391bf9e8c4540f83d2e41e795794ba48df6
       </main>
      
       <Footer />
