@@ -12,14 +12,13 @@ export default function Home() {
         <link rel="icon" href="/Costa.ico" />
       </Head>
       <main>
-       <div className="container1">
+       <div className="container1"></div>
+       <div className="container2"></div>
        
-       </div>
        
-
        <div className="content">
           <h2>Costa Norte</h2>
-          <p>Brindando atencion medica de</p>
+          <p>Brindando atencion medica de 1996</p>
         </div>
         <div class= "imgBx"> 
         <img src="/ccnLogo.png"></img>
