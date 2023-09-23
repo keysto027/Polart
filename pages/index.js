@@ -42,7 +42,7 @@ export default function Home() {
           <p>Brindando atencion medica desde 1996</p>
         </div>
         <div class= "imgBx"> 
-        <img src="/ccnLogo.png"></img>
+        <img src="/recepcion.gif"></img>
         </div>
 
        
