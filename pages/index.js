@@ -13,18 +13,10 @@ export default function Home() {
       </Head>
       <main>
        <div className="container1"></div>
-       <div className="container2"></div>
+       <div className="container2">
        
-       
-       <div className="content">
-          <h2>Costa Norte</h2>
-          <p>Brindando atencion medica de 1996</p>
-        </div>
-        <div class= "imgBx"> 
-        <img src="/ccnLogo.png"></img>
-        </div>
-
-        <div className="content2">
+       <div className="content2">
+      
            <img  className="img1"  src="/reloj.gif"></img>
            <h2>SERVICIO 24/7</h2> 
            <h3>Horario</h3>
@@ -40,6 +32,17 @@ export default function Home() {
           <img className="ubicacion" src="/ubicacion.gif"></img>
           <h2>Telefono</h2>
           <h3>+1 809-584-3939</h3>
+        </div>
+
+       </div>
+       
+       
+       <div className="content">
+          <h2>Costa Norte</h2>
+          <p>Brindando atencion medica desde 1996</p>
+        </div>
+        <div class= "imgBx"> 
+        <img src="/ccnLogo.png"></img>
         </div>
 
        
