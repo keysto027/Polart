@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 200vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -18,7 +18,7 @@
   .header{
 
     position: absolute;
-    top: 7px;
+    top: 5%;
     right: 150px;
     left: 200px;
     padding: -10px 50px;
@@ -59,19 +59,28 @@
 
     text-decoration: none;
     font-weight: 500;
-    color: black;
+    color: #196333;
     padding: 8px 5px;
     border-radius: 25px;
 
   }
 
-  .header ul li a:hover,.active{
+  .header ul li a:hover{
 
     background: #34911724;
     box-shadow: 24%
 
 
   }
+
+  .a:active{
+
+    background: #000000;
+
+  }
+
+
+
 
   .content{
 
