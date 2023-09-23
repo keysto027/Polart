@@ -21,6 +21,9 @@ export default function Home() {
           <h2>Costa Norte</h2>
           <p>Brindando atencion medica de</p>
         </div>
+        <div class= "imgBx"> 
+        <img src="/ccnLogo.png"></img>
+        </div>
 
       
      
