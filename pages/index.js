@@ -19,9 +19,13 @@ export default function Home() {
        <div className="content">
           <h2>Costa Norte</h2>
           <p>Brindando atencion medica de 1996</p>
+          <div className="buttoms">
+            <a className='Consultas' href="/Consulas">Consultas</a>
+            <a className="Resultados" href="/Resultados">Resultados</a>
+          </div>
         </div>
         <div class= "imgBx"> 
-        <img src="/ccnLogo.png"></img>
+        <img src="/recepcion.gif"></img>
         </div>
 
         <div className="content2">
