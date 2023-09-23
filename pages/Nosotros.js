@@ -4,6 +4,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import react from "react";
 
+
 // Componente de la página Nosotros
 export default function Nosotros() {
   return (
@@ -14,6 +15,9 @@ export default function Nosotros() {
       </Head>
       
       <main>
+      
+       <div className="container1"></div>
+
       <Header logoSrc="/Logo.png" />
         <div className="fondo">
 
