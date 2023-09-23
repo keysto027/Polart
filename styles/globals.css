@@ -137,7 +137,7 @@ main {
 
 .content a{
 
-  display: inline-block;
+  display: flex;
   padding: 15px 30px;
   background: #fff;
   color: #196333;
@@ -186,7 +186,7 @@ transform: translateY(20%);
   justify-content: flex-start;
   align-content: stretch;
   flex: 1;
-  background: hsl(131.21deg 54.31% 38.63% / 7%);
+  background: hsl(131.21deg 54.31% 38.63% / 14%);
   min-width: 80%;
 
 
@@ -312,9 +312,10 @@ transform: translateY(20%);
 
     font-size: 32px;
     position: absolute;
-    top: -1rem;
-    left: 7rem;
+    top: 0rem;
+    left: 6rem;
     color: #196333;
+    
   }
 
   
@@ -330,13 +331,28 @@ transform: translateY(20%);
 
   .content4 h3{
 
-    font-size: 32px;
+    font-size: 25px;
     position: absolute;
     top: 14rem;
-    left: 2rem;
+    left: 4rem;
     color: #196333;
     
   }
+
+
+  .content4 h4{
+
+    font-size: 23px;
+    position: absolute;
+    top: 19rem;
+    left: 4rem;
+    color: #6fc18c;
+
+    
+  }
+
+
+
  
 
 
