@@ -62,12 +62,6 @@ export default function Header({ logoSrc  }) {
               
             </ul>
         </header>
-        <div className={styles.content}>
-          <h2>Costa Norte</h2>
-          <p>Brindando atencion medica desde 1996</p>
-          <a href='#'>Consulta</a>
-          <a href='#'>Resultados</a>
-        </div>
       </div>
     </section>
   
