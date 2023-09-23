@@ -40,13 +40,15 @@ main {
   position: relative;
   position: absolute;
   top: 82px;
-  left: 100px;
+  left: 176px;
   width: calc(76rem);
   min-height: calc(100vh - 280px);
   min-height: 475px;
   border-radius: 20px;
   justify-content: flex-start;
   align-content: stretch;
+  flex: 1;
+  backdrop-filter: blur(10px);
 
 
 }
@@ -123,6 +125,26 @@ transform: translateY(20%);
 }
 }
 
+.container2{
+
+ 
+  box-shadow: 0 15px 35px rgba(0,0,0,.25);
+  position: relative;
+  position: absolute;
+  top: 600px;
+  left: 176px;
+  width: calc(76rem);
+  min-height: calc(100vh - 280px);
+  min-height: 475px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex: 1;
+  background: hsl(64.21deg 92.06% 49.28% / 49%);
+
+
+
+}
 
 
 
