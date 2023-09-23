@@ -114,7 +114,7 @@ main {
 max-width: 400px;
 animation: animate 5s linear infinite;
 position: absolute;
-top: 105px;
+top: 65px;
 left: 54rem;
 }
 @keyframes animate
@@ -125,7 +125,7 @@ transform: translateY(50px);
 }
 50%
 {
-transform: translateY(100%);
+transform: translateY(20%);
 }
 }
 
