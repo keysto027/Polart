@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         <div className="content4">
-          <img className="ubicacion" src="/llamada.gif"></img>
+          <img className="ubicacion" src="/ubicacion.gif"></img>
           <h2>Telefono</h2>
           <h3>+1 809-584-3939</h3>
         </div>
