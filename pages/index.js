@@ -25,8 +25,15 @@ export default function Home() {
         </div>
 
         <div className="content2">
-           <img  className="img1"  src="/reloj.png"></img>
+           <img  className="img1"  src="/reloj.gif"></img>
            <h2>SERVICIO 24/7</h2> 
+           <h3>Horario</h3>
+        </div>
+
+        <div className="content3">
+          <img className="llamada" src="/llamada.gif"></img>
+          <h2>Telefono</h2>
+          <h3>+1 809-584-3939</h3>
         </div>
 
        
