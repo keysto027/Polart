@@ -77,11 +77,11 @@ main {
 
 .content h2{
 
-  font-size: 3em;
-  color: #196333;
+  font-size: 41px;
   position: absolute;
-  top: -1rem;
-  left: 2rem;
+  top: 8rem;
+  left: 4rem;
+  color: #196333;
 }
 
 .content p{
