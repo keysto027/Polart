@@ -33,8 +33,25 @@ main {
   align-items: center;
   
 }
+.container1{
 
+ 
+    background: rgb(255 255 255 / 50%);
+    box-shadow: 0 15px 35px rgb(0 0 0 / 83%);
+    position: relative;
+    width: calc(1307px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    flex-direction: column;
+    align-content: stretch;
+
+}
 .container{
+  
   
   background: rgba(255,255,255,0.5);
   box-shadow: 0 15px 35px rgba(0,0,0,0.05);
