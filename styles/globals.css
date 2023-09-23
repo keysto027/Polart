@@ -60,7 +60,7 @@ main {
   transform: translateX(-100px);
     position: absolute;
     top: 163px;
-    left: 20rem;
+    left: 15rem;
     max-width: 700px;
     box-shadow: 0 15px 30px rgb(0 0 0 / 31%);
     border-radius: 20px;
@@ -75,6 +75,46 @@ main {
     min-height: 100x;
 
 }
+
+.buttoms .Consultas{
+
+
+  position: absolute;
+  left: 5rem;
+  top: 10rem;
+}
+
+
+.buttoms .Resultados{
+
+  position: absolute;
+  left: 17rem;
+  top: 10rem;
+
+}
+
+.buttoms .Consultas:hover{
+
+  background-color: #196333;
+  color: #ffffff;
+
+}
+
+
+.buttoms .Resultados:hover{
+
+  background-color: #196333;
+  color: #ffffff;
+}
+
+.buttoms{
+
+
+  display: flex;
+
+}
+
+
 
 .content h2{
 
