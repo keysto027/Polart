@@ -15,7 +15,7 @@ export default function Home() {
        <div className="container1">
        <p>Brindando atencion medica de</p>
        </div>
-       <Header logoSrc="/Logo.png" />
+       
 
        <div className="content">
           <h2>Costa Norte</h2>
