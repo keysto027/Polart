@@ -7,12 +7,17 @@ import { Main } from 'next/document';
 // Componente de la página Novedades
 export default function _404() {
   return (
-<main>
+ 
+ <div>
 
-<Header logoSrc="/Logo.png" />
-<div>
-                <h1>404 ERROR |Pagina no encontrada</h1>
-              </div>
-</main>
+  <main>
+    <Header logoSrc="/Logo.png" />
+  <div>
+    <h1>404 ERROR |Pagina no encontrada</h1>
+  </div>
+  </main>
+    <Footer/>
+ </div>
     
-  )}
+  );
+}
