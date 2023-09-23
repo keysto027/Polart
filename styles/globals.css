@@ -40,7 +40,7 @@ main {
   position: relative;
   position: absolute;
   top: 82px;
-  left: 130px;
+  left: 175px;
   width: calc(76rem);
   min-height: calc(100vh - 280px);
   min-height: 475px;
@@ -49,7 +49,7 @@ main {
   align-content: stretch;
   flex: 1;
   backdrop-filter: blur(10px);
-  min-width: 87%;
+  min-width: 80%;
 
 
 }
@@ -138,7 +138,7 @@ transform: translateY(20%);
   position: relative;
   position: absolute;
   top: 600px;
-  left: 130px;
+  left: 175px;
   width: calc(76rem);
   min-height: calc(100vh - 280px);
   min-height: 475px;
@@ -147,7 +147,7 @@ transform: translateY(20%);
   align-content: stretch;
   flex: 1;
   background: hsl(64.21deg 92.06% 49.28% / 49%);
-  min-width: 87%;
+  min-width: 80%;
 
 
 
