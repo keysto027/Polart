@@ -20,22 +20,10 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  transform: translateX(-100px);
-    position: absolute;
-    top: 163px;
-    left: 15rem;
-    max-width: 700px;
-    box-shadow: 0 15px 30px rgb(0 0 0 / 31%);
-    border-radius: 20px;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border-left: 3px solid hsl(0deg 0% 100%);
-    border-top: 10px solid hsl(0deg 0% 100% / 63%);
-    border-color: hsl(0deg 0% 100% / 25%) hsla(0,0%,100%,0.25) hsl(0deg 0% 100% / 25%) hsl(0deg 0% 100% / 25%);
-    border-style: solid;
-    border-width: 3px;
-    padding: 17rem 26rem 40px 110px;
-    min-height: 100x;
+  box-shadow: 0 15px 30px rgba(0,0,0,.31);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 3px solid hsla(0,0%,100%,.25);
 
   
 }
@@ -47,8 +35,8 @@
 
 
 .copyright {
-   color: #777;
-   font-size: 0.6rem;
-     display: block;
+  color: #777;
+  font-size: 0.6rem;
+  display: block;
   margin-top: 0.5rem;
  }
