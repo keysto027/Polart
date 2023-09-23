@@ -59,7 +59,6 @@ export default function Header({ logoSrc  }) {
               <li><a href="#">Servicios</a></li>
               <li><a href="#">Empleo</a></li>
               <li><a href="#">Contacto</a></li>
-              
             </ul>
         </header>
       </div>
