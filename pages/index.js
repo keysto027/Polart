@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main>
        <div className="container1">
-       <p>Brindando atencion medica de</p>
+       
        </div>
        
 
