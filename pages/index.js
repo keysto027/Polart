@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="content2">
            <img  className="img1"  src="/reloj.png"></img>
-           <h2>estamos disponibles las 24 horas</h2> 
+           <h2>SERVICIO 24/7</h2> 
         </div>
 
        
