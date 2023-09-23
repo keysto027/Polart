@@ -52,17 +52,22 @@ export default function Header({ logoSrc  }) {
         <header className={styles.header}>
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
             <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/Nosotros">Nosotros</a></li>
-              <li><a href="/Servicios">Servicios</a></li>
-              <li><a href="/Novedades">Novedades</a></li>
-              <li><a href="/Sucursales">Sucursales</a></li>
-              <li><a href="/Empleo">Empleo</a></li>
-              <li><a href="/Contacto">Contacto</a></li>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Novedades</a></li>
+              <li><a href="#">Sucursales</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Empleo</a></li>
+              <li><a href="#">Contacto</a></li>
               
             </ul>
         </header>
-        
+        <div className={styles.content}>
+          <h2>Costa Norte</h2>
+          <p>Brindando atencion medica desde 1996</p>
+          <a href='#'>Consulta</a>
+          <a href='#'>Resultados</a>
+        </div>
       </div>
     </section>
   
