@@ -156,9 +156,9 @@ transform: translateY(20%);
 .content2{
 
   transform: translateY(-10px);
-  top: 41rem;
-  position: absolute;
-  left: 12rem;
+  top: 3rem;
+    position: absolute;
+    left: 2rem;
   max-width: 701px;
   box-shadow: 0 15px 30px rgba(0,0,0,.31);
   border-radius: 20px;
@@ -202,9 +202,9 @@ transform: translateY(20%);
   .content3{
 
     transform: translateY(-10px);
-    top: 41rem;
+    top: 3rem;
     position: absolute;
-    left: 65rem;
+    left: 69%;
     max-width: 701px;
     box-shadow: 0 15px 30px rgba(0,0,0,.31);
     border-radius: 20px;
@@ -252,9 +252,9 @@ transform: translateY(20%);
   .content4{
 
     transform: translateY(-10px);
-    top: 40rem;
+    top: 2rem;
     position: absolute;
-    left: 38rem;
+    left: 35%;
     max-width: 701px;
     box-shadow: 0 15px 30px rgba(0,0,0,.31);
     border-radius: 20px;
