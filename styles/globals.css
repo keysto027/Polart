@@ -70,7 +70,7 @@ main {
     border-color: hsl(0deg 0% 100% / 25%) hsla(0,0%,100%,0.25) hsl(0deg 0% 100% / 25%) hsl(0deg 0% 100% / 25%);
     border-style: solid;
     border-width: 3px;
-    padding: 40px 40px 40px 110px;
+    padding: 17rem 26rem 40px 110px;
     min-height: 100x;
 
 }
@@ -79,14 +79,19 @@ main {
 
   font-size: 3em;
   color: #196333;
-
+  position: absolute;
+  top: -1rem;
+  left: 2rem;
 }
 
 .content p{
 
   font-size: 1.2em;
   color: #196333;
-
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+  
 }
 
 .content a{
