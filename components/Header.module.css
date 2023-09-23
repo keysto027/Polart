@@ -65,8 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
-  background: url("/bg2.jpg");
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -74,28 +73,14 @@
   min-width: 100%;
   }
 
-  .container{
 
-    position: relative;
-    width: calc(1200px);
-    min-height: calc(100vh - 280px);
-    min-height: 300px;
-    background: rgba(255,255,255,0.5);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    
-  }
 
   .header{
 
     position: absolute;
-    top: -40px;
-    right: 20px;
-    left: 20px;
+    top: 7px;
+    right: 150px;
+    left: 200px;
     padding: -10px 50px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +98,7 @@
 
   .header .logo{
 
-    width: 320px;
+    width: 285px;
     
   }
 
@@ -135,7 +120,7 @@
     text-decoration: none;
     font-weight: 500;
     color: black;
-    padding: 8px 15px;
+    padding: 8px 5px;
     border-radius: 25px;
 
   }

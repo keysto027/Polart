@@ -12,6 +12,17 @@ export default function Home() {
         <link rel="icon" href="/Costa.ico" />
       </Head>
       <main>
+       <div className="container1">
+       <p>Brindando atencion medica de</p>
+       </div>
+       <Header logoSrc="/Logo.png" />
+
+       <div className="content">
+          <h2>Costa Norte</h2>
+          <p>Brindando atencion medica de</p>
+        </div>
+
+      
      
         <Header logoSrc="/Logo.png" />
     
