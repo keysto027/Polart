@@ -12,7 +12,13 @@ export default function Home() {
         <link rel="icon" href="/Costa.ico" />
       </Head>
       <main>
-       <div className="container1"></div>
+       <div className="container1">
+
+        <div class= "imgBx"> 
+        <img src="/recepcion.gif"></img>
+        </div>
+
+       </div>
        <div className="container2">
        
          <div className="content2">
@@ -40,11 +46,7 @@ export default function Home() {
        <div className="content">
           <h2>Costa Norte</h2>
           <p>Brindando atencion medica desde 1996</p>
-        </div>
-        <div class= "imgBx"> 
-        <img src="/recepcion.gif"></img>
-        </div>
-
+       </div>
        
 
       
