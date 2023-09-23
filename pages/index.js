@@ -24,6 +24,13 @@ export default function Home() {
         <img src="/ccnLogo.png"></img>
         </div>
 
+        <div className="content2">
+           <img  className="img1"  src="/reloj.png"></img>
+           <h2>estamos disponibles las 24 horas</h2> 
+        </div>
+
+       
+
       
      
         <Header logoSrc="/Logo.png" />
