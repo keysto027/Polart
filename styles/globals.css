@@ -156,8 +156,8 @@ main {
 max-width: 400px;
 animation: animate 5s linear infinite;
 position: absolute;
-top: 65px;
-left: 54rem;
+top: -8px;
+left: 48rem;
 }
 @keyframes animate
 {
@@ -186,7 +186,7 @@ transform: translateY(20%);
   justify-content: flex-start;
   align-content: stretch;
   flex: 1;
-  background: hsl(64.21deg 92.06% 49.28% / 49%);
+  background: hsl(131.21deg 54.31% 38.63% / 7%);
   min-width: 80%;
 
 
