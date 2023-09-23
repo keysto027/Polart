@@ -3,13 +3,13 @@ import Head from 'next/head';
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import react from "react";
-import '@styles/nosotros.css'
+import styles from '@styles/nosotros.module.css'
 
 
 // Componente de la página Nosotros
 export default function Nosotros() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
         <title>Nosotros - COSTA NORTE</title>
         <link rel="icon" href="/Costa.ico" />
@@ -17,7 +17,7 @@ export default function Nosotros() {
       
       <main>
       
-       <div className={styles}></div>
+       <div className={styles.container11}></div>
 
       <Header logoSrc="/Logo.png" />
         <div className="fondo">
