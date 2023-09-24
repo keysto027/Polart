@@ -25,6 +25,15 @@ export default function Home() {
            <h2>SERVICIO 24/7</h2> 
            <h3>Horario</h3>
         </div>
+
+        <div className="container3">
+
+          <div id="slide">
+            <div className="item"></div>
+          </div>
+
+        </div>
+
         <div className="content3">
           <img className="llamada" src="/llamada.gif"></img>
           <h2>Telefono</h2>
@@ -43,7 +52,7 @@ export default function Home() {
        
        <div className="content">
           <h2>Costa Norte</h2>
-          <p>Brindando atencion medica desde 1996</p>
+          <p>Brindando Atencion Medica Desde 1996</p>
           <div className="buttoms">
             <a className="Consultas" href="Consultas">Consultas</a>
             <a className="Resultados"href="Resultados">Resultados</a>  
