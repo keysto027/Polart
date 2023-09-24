@@ -26,13 +26,7 @@ export default function Home() {
            <h3>Horario</h3>
         </div>
 
-        <div className="container3">
-
-          <div id="slide">
-            <div className="item"></div>
-          </div>
-
-        </div>
+       
 
         <div className="content3">
           <img className="llamada" src="/llamada.gif"></img>
@@ -46,7 +40,6 @@ export default function Home() {
           <h3>Ave. María Trinidad Sánchez No.1</h3>
           <h4>Nagua - Rep. Dom.</h4>
         </div>
-
        </div>
        
        
