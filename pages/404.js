@@ -11,10 +11,12 @@ export default function _404() {
  <div>
 
   <main>
-    <Header logoSrc="/Logo.png" />
+  <Header logoSrc="/Logo.png" />
     <div className={styles.container1}>
+    
     <h1>404 ERROR |Pagina no encontrada</h1>
   </div>
+  <Header logoSrc="/Logo.png" />
   </main>
     <Footer/>
  </div>
