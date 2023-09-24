@@ -17,12 +17,17 @@ export default function Nosotros() {
       
       <main>
       
-       <div className={styles.container11}></div>
+       <div className={styles.container1}>
+
+            <div class={styles.imgBx}> 
+            <img src="/personaje.png"></img>
+            </div>
+       </div>
 
       <Header logoSrc="/Logo.png" />
         <div className="fondo">
 
-          <section className="nosotros">
+          <section className={styles.nosotros}>
             <h1>Sobre Nosotros</h1>
             <h2>NUESTROS INICIOS</h2>
             <p>
@@ -32,6 +37,10 @@ export default function Nosotros() {
             El crecimiento alcanzado por la institución trajo consigo un problema: espacio físico. Es aquí donde entendimos que la construcción de un moderno edificio, era una necesidad imperiosa. Siendo así las cosas, construimos una moderna infraestructura, ubicada en una vía de fácil acceso, tanto para los que vienen desde Gaspar Hernández, Río San Juan y Cabrera, como los que vienen de Samaná, Las Terrenas y Sánchez; de igual forma los que proceden de Villa Riva, Arenoso y todo el extenso Yuna.
             </p>
           </section>
+        </div>
+
+        <div className={styles.imgbx1}>
+               <img src="/seccion2.jpg"></img>
         </div>
       </main>
       <Footer />
