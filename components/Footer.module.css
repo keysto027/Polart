@@ -5,8 +5,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  background: #ffffff;
+  position: absolute;
+  top: 156%;
+  background: #fff0;
+    position: fixed;
+    bottom: 0;
+    backdrop-filter: blur(4px);
 }
 
 .logo {
