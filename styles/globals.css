@@ -184,9 +184,8 @@ transform: translateY(20%);
 
  
   box-shadow: inset 0 5px 23px rgba(0, 0, 0, 0.31);
-  position: relative;
   position: absolute;
-  top: 600px;
+  top: 74rem;
   left: 175px;
   width: calc(76rem);
   min-height: calc(100vh - 280px);
@@ -363,18 +362,10 @@ transform: translateY(20%);
   .swiper {
     width: 600px;
     height: 300px;
+    position: absolute;
+    top: 57rem;
+    
   }
-
-
-
-
-
-
-
- 
-
-
-
 
 
 
