@@ -38,7 +38,8 @@ main {
 {
 
   min-height: 250vh;
-
+  display: flex;
+    flex-direction: column-reverse;
 }
 
 .container1{
