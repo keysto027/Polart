@@ -10,8 +10,6 @@ import styles from '@styles/nosotros.module.css'
 export default function Nosotros() {
   return (
   <section className={styles.section}>
-
-<div className={styles.container}>
       <Head>
         <title>Nosotros - COSTA NORTE</title>
         <link rel="icon" href="/Costa.ico" />
@@ -46,7 +44,7 @@ export default function Nosotros() {
         </div>
       </main>
       <Footer />
-    </div>
+    
 
     </section>
   );
