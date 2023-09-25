@@ -33,6 +33,14 @@ main {
   align-items: center;
   
 }
+
+.section
+{
+
+  min-height: 250vh;
+
+}
+
 .container1{
 
  
@@ -350,6 +358,15 @@ transform: translateY(20%);
 
     
   }
+
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+
+
 
 
 
