@@ -3,7 +3,8 @@
 {
 
   min-height: 250vh;
-
+  display: flex;
+    flex-direction: column-reverse;
 }
 .title {
   /* Estilos para la clase .title */
