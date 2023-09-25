@@ -8,7 +8,9 @@ import styles from '@styles/nosotros.module.css'
 export default function _404() {
   return (
  
- <div>
+ <section className={styles.section}>
+
+  <div>
 
   <main>
   <Header logoSrc="/Logo.png" />
@@ -18,8 +20,10 @@ export default function _404() {
   </div>
   <Header logoSrc="/Logo.png" />
   </main>
-    <Footer/>
- </div>
+    
+  </div>
+  <Footer/>
+ </section>
     
   );
 }
