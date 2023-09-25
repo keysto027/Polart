@@ -8,7 +8,7 @@ import Swiper from 'swiper/bundle';
 export default function Home() {
   useEffect(() => {
     const swiper = new Swiper('.swiper', {
-      direction: 'vertical',
+      direction: 'horizontal',
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -19,6 +19,7 @@ export default function Home() {
       },
       scrollbar: {
         el: '.swiper-scrollbar',
+        draggable: false,
       },
     });
   }, []); // Agrega los [] para que useEffect solo se ejecute una vez
@@ -48,15 +49,6 @@ export default function Home() {
               <div className="swiper-slide">Slide 3</div>
             </div>
 
-<<<<<<< Updated upstream
-      </main>
-      <Footer />
-      
-    </div>
-      
-    
- </section>
-=======
             <div className="swiper-pagination"></div>
             <div className="swiper-button-prev"></div>
             <div className="swiper-button-next"></div>
@@ -107,6 +99,5 @@ export default function Home() {
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       <Footer />
     </section>
->>>>>>> Stashed changes
   );
 }
