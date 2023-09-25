@@ -16,5 +16,6 @@
 {
 
   min-height: 200vh;
-
+  display: flex;
+  flex-direction: column-reverse;
 }
