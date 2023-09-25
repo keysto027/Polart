@@ -47,7 +47,7 @@ export default function Header({ logoSrc  }) {
     //   </nav>
     // </div>
 
-    <section className={styles.section}>
+    
       <div class={styles.container}>
         <header className={styles.header}>
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
@@ -62,7 +62,7 @@ export default function Header({ logoSrc  }) {
             </ul>
         </header>
       </div>
-    </section>
+   
   
     
 
