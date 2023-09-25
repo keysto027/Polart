@@ -1,5 +1,10 @@
 
+.section
+{
 
+  min-height: 250vh;
+
+}
 .title {
   /* Estilos para la clase .title */
   font-size: 24px;
