@@ -6,18 +6,40 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+ <section className="section">
+
+<div className="container">
       <Head>
         <title>Costa Norte</title>
         <link rel="icon" href="/Costa.ico" />
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
       </Head>
       <main>
+
+        
 
       <div className="container1">
           <div class= "imgBx"> 
             <img src="/recepcion.gif"></img>
         </div>
       </div>
+
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+
+    </div>
+
+
 
        <div className="container2">
          <div className="content2">
@@ -26,7 +48,6 @@ export default function Home() {
            <h3>Horario</h3>
         </div>
 
-       
 
         <div className="content3">
           <img className="llamada" src="/llamada.gif"></img>
@@ -52,7 +73,7 @@ export default function Home() {
           </div>
         </div>
         
-
+        
        
 
       
@@ -62,8 +83,11 @@ export default function Home() {
 
       </main>
      
-      <Footer />
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     </div>
+    <Footer />
+ </section>
   );
 }
 
