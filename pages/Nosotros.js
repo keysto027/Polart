@@ -9,7 +9,9 @@ import styles from '@styles/nosotros.module.css'
 // Componente de la página Nosotros
 export default function Nosotros() {
   return (
-    <div className={styles.container}>
+  <section className={styles.section}>
+
+<div className={styles.container}>
       <Head>
         <title>Nosotros - COSTA NORTE</title>
         <link rel="icon" href="/Costa.ico" />
@@ -45,6 +47,8 @@ export default function Nosotros() {
       </main>
       <Footer />
     </div>
+
+    </section>
   );
  
 }
