@@ -11,7 +11,10 @@ export default function _404() {
  <section className={styles.section}>
 
   <div>
-
+  <Head>
+          <title>Costa Norte</title>
+          <link rel="icon" href="/Costa.ico" />
+        </Head>
   <main>
   <Header logoSrc="/Logo.png" />
     <div className={styles.container1}>
