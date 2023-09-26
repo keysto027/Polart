@@ -12,6 +12,11 @@ export default function Home() {
       effect: "coverflow",
       grabCursor: true,
       centeredSlides: true,
+      autoplay:{
+        delay:2000,
+        disableOnInteraction:false,
+
+      },
       slidesPerView: "auto",
       coverflowEffect: {
         rotate: 15,
