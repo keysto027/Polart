@@ -37,7 +37,7 @@ main {
 .section
 {
 
-  min-height: 250vh;
+  min-height: 120rem;
   display: flex;
     flex-direction: column-reverse;
 }
@@ -106,6 +106,7 @@ main {
 
   background-color: #196333;
   color: #ffffff;
+  transition: background-color 0.3s
 
 }
 
@@ -114,6 +115,7 @@ main {
 
   background-color: #196333;
   color: #ffffff;
+  transition: background-color 0.3s
 }
 
 .buttoms{
