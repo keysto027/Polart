@@ -6,6 +6,7 @@ import Footer from '@components/Footer';
 import Swiper from 'swiper/bundle';
 
 export default function Home() {
+ 
   useEffect(() => {
     var swiper = new Swiper(".mySwiper", {
       effect: "coverflow",
@@ -43,40 +44,46 @@ export default function Home() {
               <img src="/recepcion.gif" alt="Recepción" />
             </div>
           </div>
+        
+         <div className="container3">
+
+                <div class="swiper mySwiper">
+
+                  <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                 <img src="cirugia.jpg" />
+                  </div>
+
+                  <div class="swiper-slide">
+                   <img src="consulta-medica.jpg" />
+                         </div>
+
+                      <div class="swiper-slide">
+                        <img src="imagenes-medicas.jpg" />
+                       </div>
+
+                   <div class="swiper-slide">
+                 <img src="servicios-laboratorio.jpg" />
+                      </div>
+
+                     <div class="swiper-slide">
+                      <img src="UCI.jpg" />
+                </div>
+
+            <div class="swiper-slide">
+             <img src="UCIN.jpg" />
+           </div>
+
+            </div>
+
+              <div class="swiper-pagination"></div>
+                </div>
 
 
-      <div class="swiper mySwiper">
 
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <img src="cirugia.jpg" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="consulta-medica.jpg" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="imagenes-medicas.jpg" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="servicios-laboratorio.jpg" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="UCI.jpg" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="UCIN.jpg" />
-          </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-      </div>
+         </div>
+    
           
 
           <div className="container2">
@@ -85,6 +92,13 @@ export default function Home() {
               <h2>SERVICIO 24/7</h2>
               <h3>Horario</h3>
             </div>
+
+            
+          
+
+
+           
+
 
             <div className="content3">
               <img className="llamada" src="/llamada.gif" alt="Llamada" />
@@ -102,7 +116,9 @@ export default function Home() {
               <h3>Ave. María Trinidad Sánchez No.1</h3>
               <h4>Nagua - Rep. Dom.</h4>
             </div>
-          </div>
+
+            </div>
+          
 
           <div className="content">
             <h2>Costa Norte</h2>
@@ -120,8 +136,9 @@ export default function Home() {
           <Header logoSrc="/Logo.png" />
         </main>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       <Footer />
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      
     </section>
   );
 }
