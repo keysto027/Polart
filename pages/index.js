@@ -7,22 +7,24 @@ import Swiper from 'swiper/bundle';
 
 export default function Home() {
   useEffect(() => {
-    const swiper = new Swiper('.swiper', {
-      direction: 'horizontal',
-      loop: true,
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
       pagination: {
-        el: '.swiper-pagination',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      scrollbar: {
-        el: '.swiper-scrollbar',
-        draggable: false
+        el: ".swiper-pagination",
       },
     });
-  }, []); // Agrega los [] para que useEffect solo se ejecute una vez
+  }, []); 
+
 
   return (
     <section className="section">
@@ -32,8 +34,8 @@ export default function Home() {
           <link rel="icon" href="/Costa.ico" />
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-          />
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+          <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         </Head>
         <main>
           <div className="container1">
@@ -42,18 +44,40 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="swiper">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">Slide 1</div>
-              <div className="swiper-slide">Slide 2</div>
-              <div className="swiper-slide">Slide 3</div>
-            </div>
 
-            <div className="swiper-pagination"></div>
-            <div className="swiper-button-prev"></div>
-            <div className="swiper-button-next"></div>
-            <div className="swiper-scrollbar"></div>
+      <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <img src="cirugia.jpg" />
           </div>
+
+          <div class="swiper-slide">
+            <img src="consulta-medica.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="imagenes-medicas.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="servicios-laboratorio.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="UCI.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="UCIN.jpg" />
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+          
 
           <div className="container2">
             <div className="content2">
