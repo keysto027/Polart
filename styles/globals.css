@@ -63,6 +63,30 @@ main {
 
 }
 
+.container3{
+
+ 
+  box-shadow: inset 0 5px 23px rgba(0, 0, 0, 0.31);
+  position: relative;
+  position: absolute;
+  top: 39rem;
+  left: 175px;
+  width: calc(76rem);
+  min-height: calc(100vh - 280px);
+  min-height: 475px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex: 1;
+  backdrop-filter: blur(10px);
+  min-width: 80%;
+
+
+}
+
+
+
+
 
 .content{
 
@@ -365,8 +389,8 @@ transform: translateY(20%);
     width: 80%;
     padding-top: 50px;
     padding-bottom: 50px;
-    top: -50rem;
-    left: -6rem;
+    top: 2rem;
+    left: 0rem;
   }
 
   .swiper-slide {
@@ -379,6 +403,7 @@ transform: translateY(20%);
   .swiper-slide img {
     display: block;
     width: 100%;
+    height: 100%;
   }
 
 
