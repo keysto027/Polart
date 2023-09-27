@@ -76,6 +76,7 @@ export default function Home() {
               <div class="swiper-wrapper">
                 <div class="swiper-slide"> <img src="cirugia1.jpg" /> </div>
                 <div class="swiper-slide"> <img src="consulta-medica1.jpg" /> </div>
+                <div class="swiper-slide"> <img src="laboratorio.jpg" /> </div>
               
               </div>
             </div>
