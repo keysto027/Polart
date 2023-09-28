@@ -20,44 +20,12 @@
   position: absolute;
   top: 192px;
   left: 487px;
-  height: calc(32rem);
   width: calc(60rem);
   border-radius: 20px;
   min-height: 476px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.nosotros h1{
 
-
-  color: #196333;
-  position: absolute;
-  top: 1rem;
-  left: 24rem;
-}
-
-.nosotros h2{
-
- 
-  color: #196333;
-    position: absolute;
-    top: 5rem;
-    left: 1rem;
-  }
-
-.nosotros p{
-  
-
-  font-size: 15px;
-  color: #196333;
-  position: absolute;
-  top: 7rem;
-  left: 1rem;
-    
-  }
 
 
 
