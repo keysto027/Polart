@@ -398,5 +398,13 @@ transform: translateY(20%);
   
   }
 
-
+  .swiper-text {
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    color: #ffffff;
+    font-size: 60px;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    font-family: Verdana, sans-serif; /* Añade Verdana como la fuente preferida, y sans-serif como una fuente de respaldo */
+}
 
