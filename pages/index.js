@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     var swiper = new Swiper(".mySwiper", {
       autoplay: {
-        delay: 99999,
+        delay: 2000,
         disableOnInteraction: false,
       },
       loop: true,
