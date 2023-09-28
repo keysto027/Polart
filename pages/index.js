@@ -11,8 +11,8 @@ export default function Home() {
   useEffect(() => {
     var swiper = new Swiper(".mySwiper", {
       autoplay: {
-          delay: 2000,
-          disableOnInteraction: false,
+        delay: 99999,
+        disableOnInteraction: false,
       },
       loop: true,
     });
@@ -74,9 +74,11 @@ export default function Home() {
          <div className="container3">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="cirugia1.jpg" /> </div>
-                <div class="swiper-slide"> <img src="consulta-medica1.jpg" /> </div>
-                <div class="swiper-slide"> <img src="laboratorio.jpg" /> </div>
+                
+                <div class="swiper-slide">  <img src="Resultados.jpg" /> <div className="swiper-text"> <h2>Resultados</h2> </div> </div>
+                <div class="swiper-slide">  <img src="consulta-medica.jpg" /> <div className="swiper-text"> <h2>Conculta Medica</h2> </div> </div>
+                <div class="swiper-slide">  <img src="laboratorio.jpg" />  <div className="swiper-text"> <h2>Laboratorio</h2> </div> </div>
+                <div class="swiper-slide">  <img src="farmacia.jpg" />  <div className="swiper-text"> <h2>Farmacia</h2> </div> </div>
               
               </div>
             </div>
