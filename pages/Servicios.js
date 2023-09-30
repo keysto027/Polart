@@ -22,7 +22,7 @@ export default function Servicios()
 
                 <h2>
 
-                El Centro de Especialidades Médicas Costa Norte, nace el 14 de enero de 1996 como una institución comprometida con la salud y el bienestar de nuestros pacientes y del público en general; ofreciendo servicios de calidad, amparados en la más estrictas normas médicas, ética profesional y calor humano.
+                Nuestros Servicios
 
                 </h2>
 
