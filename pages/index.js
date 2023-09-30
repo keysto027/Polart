@@ -43,11 +43,11 @@ export default function Home() {
             <h2>Costa Norte</h2>
             <p>Brindando Atencion Medica Desde 1996</p>
             <div className="buttoms">
-              <a className="Consultas" href="Consultas">
-                Consultas
+              <a className="Consultas" href="https://clinicacostanorte.probeta.com/">
+                Laboratorio
               </a>
-              <a className="Resultados" href="Resultados">
-                Resultados
+              <a className="Resultados" href="https://costanorte.radiologox.com/">
+                Resultados Imagenes
               </a>
             </div>
           </div>
