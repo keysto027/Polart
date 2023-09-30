@@ -46,7 +46,7 @@ export default function Home() {
               <a className="Consultas" href="https://clinicacostanorte.probeta.com/">
                 Laboratorio
               </a>
-              <a className="Resultados" href="https://costanorte.radiologox.com/">
+              <a className="Resultados" href="http://costanorte.radiologox.com/App/#/login">
                 Resultados Imagenes
               </a>
             </div>
