@@ -44,7 +44,7 @@ export default function Home() {
             <p>Brindando Atencion Medica Desde 1996</p>
             <div className="buttoms">
               <a className="Consultas" href="https://clinicacostanorte.probeta.com/">
-                Laboratorio
+                Laboratorio Medico
               </a>
               <a className="Resultados" href="http://costanorte.radiologox.com/App/#/login">
                 Resultados Imagenes
