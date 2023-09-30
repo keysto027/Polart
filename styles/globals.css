@@ -113,8 +113,9 @@ main {
 
 
   position: absolute;
-  left: 5rem;
+  left: 1rem;
   top: 10rem;
+  font-size: 17px;
 }
 
 
@@ -123,6 +124,7 @@ main {
   position: absolute;
   left: 17rem;
   top: 10rem;
+  font-size: 17px;
 
 }
 
