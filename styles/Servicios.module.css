@@ -1,7 +1,7 @@
 
 .section{
 
-    min-height: 190rem;
+    min-height: 240rem;
     display: flex;
     flex-direction: column-reverse;
 
@@ -18,7 +18,7 @@
     border-radius: 20px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    min-height: 100x;
+    min-height: 150x;
     
   
   }
@@ -37,12 +37,12 @@
     left: 175px;
     width: calc(76rem);
     min-height: calc(100vh - 280px);
-    min-height: 158rem;
+    min-height: 220rem;
     border-radius: 20px;
     flex: 1 1;
     backdrop-filter: blur(10px);
     min-width: 80%;
-     background-color: rgb(156, 202, 161);
+    background-color: rgb(156, 202, 161);
 }
 
 .container_cards{
