@@ -53,21 +53,24 @@ export default function Home() {
           </div>
       
           <div className="container2">
+
+              <div className="tittle">
+
+                  <h2></h2>
+
+              </div>
+
             <div className="content2">
               <img className="img1" src="/reloj.gif" alt="Reloj" />
-              <h2>SERVICIO 24/7</h2>
-              <h3>Horario</h3> 
+              
             </div>
             <div className="content3">
               <img className="llamada" src="/llamada.gif" alt="Llamada" />
-              <h2>Telefono</h2>
-              <h3>+1 809-584-3939</h3>
+              
             </div>
             <div className="content4" href="/Nosotros">
               <img className="ubicacion" src="/ubicacion.gif" alt="Ubicación"/>
-              <h2>Ubicacion</h2>
-              <h3>Ave. María Trinidad Sánchez No.1</h3>
-              <h4>Nagua - Rep. Dom.</h4>
+              
             </div>
           </div>
         
@@ -82,6 +85,13 @@ export default function Home() {
               
               </div>
             </div>
+          </div>
+
+          <div className="container4">
+
+            <h2>Sobre Nosotros</h2>
+            <p>El 14 de enero de 1996 comenzó a laborar el Centro de Especialidades Médicas Costa Norte, ubicado para ese entonces en la Calle Miguel José No. 21 de Nagua, Provincia María Trinidad Sánchez, República Dominicana.</p>
+
           </div>
 
             
