@@ -1,4 +1,5 @@
-import '@styles/globals.css'
+import '@styles/GlobalsDesktop.css'
+import '@styles/GlobalsMobile.css'
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
