@@ -435,6 +435,7 @@ transform: translateY(20%);
     left: -35rem;
     position: absolute;
     font-size: 52px;
+    color: #196333;
 
   }
 
@@ -448,5 +449,11 @@ transform: translateY(20%);
     
 
   }
+  .container4 img {
+    position: absolute;
+    top: -3rem;
+    left: 5rem;
+    max-width: 450px;
+}
 
 
