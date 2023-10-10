@@ -61,15 +61,15 @@ export default function Home() {
               </div>
 
             <div className="content2">
-              <img className="img1" src="/reloj.gif" alt="Reloj" />
+              <img className="img1" src="/facebook.png" alt="Reloj" />
               
             </div>
             <div className="content3">
-              <img className="llamada" src="/llamada.gif" alt="Llamada" />
+              <img className="llamada" src="/instagram.png" alt="Llamada" />
               
             </div>
             <div className="content4" href="/Nosotros">
-              <img className="ubicacion" src="/ubicacion.gif" alt="Ubicación"/>
+              <img className="ubicacion" src="/youtube.png" alt="Ubicación"/>
               
             </div>
           </div>
@@ -89,6 +89,8 @@ export default function Home() {
 
           <div className="container4">
 
+            
+            <img className="ccn" src="ccnLogo.png"></img>
             <h2>Sobre Nosotros</h2>
             <p>El 14 de enero de 1996 comenzó a laborar el Centro de Especialidades Médicas Costa Norte, ubicado para ese entonces en la Calle Miguel José No. 21 de Nagua, Provincia María Trinidad Sánchez, República Dominicana.</p>
 
