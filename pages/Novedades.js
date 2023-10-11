@@ -8,6 +8,7 @@ import react from "react";
 // Componente de la página Novedades
 export default function Novedades() {
   return (
+    <section className={styles.section}>
     <div className="container">
       <Head>
         <title>Novedades - COSTA NORTE</title>
@@ -15,27 +16,33 @@ export default function Novedades() {
       </Head>
 
       <main>
-      <div className={styles.container1}></div>
+      <div className={styles.container1}>
+
+      <div className="fondo">
+       
+
+       <section className={styles.novedadeSec}>
+         <h1>Novedades</h1>
+         <div className="novedad">
+           
+         </div>
+         <div className="novedad">
+           
+         </div>
+         {/* Puedes agregar más novedades aquí */}
+       </section>
+     </div>
+
+      </div>
 
 
       <Header logoSrc="/Logo.png" />
-        <div className="fondo">
        
-
-          <section className="novedades-section">
-            <h1>Novedades</h1>
-            <div className="novedad">
-              
-            </div>
-            <div className="novedad">
-              
-            </div>
-            {/* Puedes agregar más novedades aquí */}
-          </section>
-        </div>
       </main>
       <Footer />
+      
     
     </div>
+    </section>
   );
 }
