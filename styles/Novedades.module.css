@@ -19,3 +19,10 @@
   display: flex;
   flex-direction: column-reverse;
 }
+
+.novedadeSec{
+
+  position: absolute;
+  top: 86px;
+  left: 575px;
+}
