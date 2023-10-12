@@ -16,7 +16,7 @@ export default function _404() {
           <link rel="icon" href="/Costa.ico" />
         </Head>
   <main>
-  <Header logoSrc="/Logo.png" />
+
     <div className={styles.container1}>
     
     <h1>404 ERROR |Pagina no encontrada</h1>
