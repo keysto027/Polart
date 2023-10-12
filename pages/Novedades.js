@@ -14,7 +14,7 @@ export default function Novedades() {
       </Head>
 
       <main>
-      <Header logoSrc="/Logo.png" />
+      
         <div className="fondo">
        
 
@@ -31,7 +31,8 @@ export default function Novedades() {
         </div>
       </main>
       <Footer />
-    
+      <Header logoSrc="/Logo.png" />
+
     </div>
   );
 }
