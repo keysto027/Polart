@@ -31,7 +31,7 @@ export default function Novedades() {
         </div>
       </main>
       <Footer />
-      <Header logoSrc="/Logo.png" />
+    <Header logoSrc="/Logo.png" />
 
     </div>
   );
