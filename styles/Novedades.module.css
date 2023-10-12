@@ -1,0 +1,28 @@
+.container1{
+
+ 
+    box-shadow: inset 0 5px 23px rgba(0, 0, 0, 0.31);
+    position: absolute;
+    top: 82px;
+    left: 175px;
+    height: calc(75rem);
+    width: calc(76rem);
+    border-radius: 20px;
+    min-height: 476px;
+  
+  }
+
+  .section
+{
+
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.novedadeSec{
+
+  position: absolute;
+  top: 86px;
+  left: 575px;
+}
