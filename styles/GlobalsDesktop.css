@@ -218,7 +218,7 @@ transform: translateY(20%);
   left: 175px;
   width: calc(76rem);
   min-height: calc(100vh - 280px);
-  min-height: 584px;
+  min-height: 465px;
   border-radius: 20px;
   justify-content: flex-start;
   align-content: stretch;
@@ -226,36 +226,17 @@ transform: translateY(20%);
   min-width: 80%;
   
 
-
-
 }
 
-.content2{
-
-  transform: translateY(-10px);
-  top: 11rem;
+.container2 h2 {
   position: absolute;
-  left: 2rem;
-  max-width: 701px;
-  box-shadow: 0 15px 30px rgba(0,0,0,.31);
+  top: 2rem;
+  left: 27rem;
+  font-size: 34px;
+  color: #196333;
+}
 
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 3px solid hsla(0,0%,100%,.25);
-  padding: 40px 40px 40px 110px;
-  min-height: 100px;
-  width: 21rem;
-  height: 24rem;
-  }
 
-  .content2 h2{
-  
-    font-size: 32px;
-    position: absolute;
-    top: 15rem;
-    left: 3rem;
-    color: #196333;
-  }
 
   .img1{
    
@@ -263,131 +244,106 @@ transform: translateY(20%);
     position: absolute;
     top: 98px;
     left: 98px;
-    border-radius: 35px
+    
 
-  }
-
-  .content2 h3{
-
-    font-size: 32px;
-    position: absolute;
-    top: -1rem;
-    left: 7rem;
-    color: #196333;
-  }
-
-  .content3{
-
-    transform: translateY(-10px);
-    top: 11rem;
-    position: absolute;
-    left: 69%;
-    max-width: 701px;
-    box-shadow: 0 15px 30px rgba(0,0,0,.31);
-
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border: 3px solid hsla(0,0%,100%,.25);
-    padding: 40px 40px 40px 110px;
-    min-height: 100px;
-    width: 21rem;
-    height: 24rem;
-
-
-  }
-
-  .content3 h2{
-
-    font-size: 32px;
-    position: absolute;
-    top: -1rem;
-    left: 7rem;
-    color: #196333;
   }
 
   
-  .llamada{
-   
-    width: 130px;
-    position: absolute;
-    top: 98px;
-    left: 108px;
-    border-radius: 35px;
+.social-menu{
 
-  }
-
-  .content3 h3{
-
-    font-size: 32px;
-    position: absolute;
-    top: 14rem;
-    left: 2rem;
-    color: #196333;
-    
-  }
-
-  .content4{
-
-    transform: translateY(-10px);
-    top: 11rem;
-    position: absolute;
-    left: 35%;
-    max-width: 701px;
-    box-shadow: 0 15px 30px rgba(0,0,0,.31);
+  position: relative;
+  display: flex;
+  top: 15rem;
+  left: 18rem;
   
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border: 3px solid hsla(0,0%,100%,.25);
-    padding: 40px 40px 40px 110px;
-    min-height: 100px;
-    width: 21rem;
-    height: 24rem;
+  
+}
+
+.social-icon a {
+
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 50px;
+  box-shadow: 0 4px 4px rgba(0,0,0, .3);
+
+}
+.social-icon a i{
+
+  font-size: 40px;
+  color: #000;
+  line-height: 120px;
+
+}
+
+.social-icon span{
+
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 16px;
+
+  transition: .3s;
 
 
-  }
+}
 
-  .content4 h2{
+.social-icon{
 
-    font-size: 32px;
-    position: absolute;
-    top: 0rem;
-    left: 6rem;
-    color: #196333;
-    
-  }
+  position: relative;
+
+}
+
+.social-icon:hover span{
+
+  transform: translate(-50%, 90%) scale(1);
+
+}
+
+.social-icon:hover a{
+
+  transform: translateY(-6px) scale(1.2);
+  margin: 0 20px;
+  transition: .2s;
+
+}
+
+.social-icon:hover a i{
+
+  color: white;
+
+}
+
+.social-icon:nth-child(1):hover a {
+
+
+  background: #e80606;
+
+}
+
+.social-icon:nth-child(2):hover a {
+
+
+  background: linear-gradient(-135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C,#FD1D1D,#F56040,#F77737,#FCAF45, #FFDC80);
+}
+
+.social-icon:nth-child(3):hover a {
+
+
+  background: #0795cd;
+
+}
+
+
+
 
   
-  .ubicacion{
-   
-    width: 130px;
-    position: absolute;
-    top: 98px;
-    left: 108px;
-    border-radius: 35px;
 
-  }
-
-  .content4 h3{
-
-    font-size: 25px;
-    position: absolute;
-    top: 14rem;
-    left: 4rem;
-    color: #196333;
-    
-  }
-
-
-  .content4 h4{
-
-    font-size: 23px;
-    position: absolute;
-    top: 19rem;
-    left: 4rem;
-    color: #6fc18c;
-
-    
-  }
+  
 
   .swiper {
     width: 100%;
