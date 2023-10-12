@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import styles from './Header.module.css'
+import Mobilestyles from './HeaderMobile.module.css'
+import { useState } from "react";
+
 
 export default function Header({ logoSrc  }) {
   return (
@@ -16,16 +19,20 @@ export default function Header({ logoSrc  }) {
               <li><a href="/Novedades">Novedades</a></li>
               <li><a href="/Empleo">Empleo</a></li>
               <li><a href="/Contacto">Contacto</a></li>
-              
-            </ul>
+            </ul>            
         </header>
       </div>
+
+      
    
   
     
 
   );
 }
+
+
+
 
 
 
