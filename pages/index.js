@@ -29,6 +29,8 @@ export default function Home() {
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
           <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+          
         </Head>
 
         <main>
@@ -54,24 +56,23 @@ export default function Home() {
       
           <div className="container2">
 
-              <div className="tittle">
+              <h2 className="tittle"> Entra a la comunidad</h2>
 
-                  <h2></h2>
-
+            <div class="social-menu">
+              <div class="social-icon">
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <span>Youtube</span>
               </div>
+              <div class="social-icon">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <span>Instagram</span>
+              </div>
+              <div class="social-icon">
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  <span>Facebook</span>
+              </div>
+            </div>
 
-            <div className="content2">
-              <img className="img1" src="/facebook.png" alt="Reloj" />
-              
-            </div>
-            <div className="content3">
-              <img className="llamada" src="/instagram.png" alt="Llamada" />
-              
-            </div>
-            <div className="content4" href="/Nosotros">
-              <img className="ubicacion" src="/youtube.png" alt="Ubicación"/>
-              
-            </div>
           </div>
         
          <div className="container3">
