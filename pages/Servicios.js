@@ -13,7 +13,7 @@ export default function Servicios()
           <title>Servicios - COSTA NORTE</title>
           <link rel="icon" href="/Costa.ico" />
           </Head>
-          <Header logoSrc="/Logo.png" />
+         
 
           <main>
             <div className={styles.container}>
@@ -148,6 +148,8 @@ export default function Servicios()
 
       </div>
       <Footer/>
+
+      <Header logoSrc="/Logo.png" />
     </section>
   );
    
