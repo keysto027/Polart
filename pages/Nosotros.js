@@ -25,7 +25,7 @@ export default function Nosotros() {
             </div>
        </div>
 
-      <Header logoSrc="/Logo.png" />
+      
         
           <div className={styles.Historia}>
             
@@ -67,6 +67,7 @@ export default function Nosotros() {
       </div>
       <Footer />
     
+      <Header logoSrc="/Logo.png" />
 
     </section>
   );
