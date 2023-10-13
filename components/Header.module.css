@@ -101,7 +101,7 @@
 
       display: inline-flex;
 
-    }#check:checked~.icons #menu-icon{
+    }#check:checked~.icons #menuicon{
 
       display: none;
 
@@ -113,7 +113,7 @@
 
     }
 
-    #check:checked~.icons #close-icon{
+    #check:checked~.icons #closeicon{
 
       display: block;
 
