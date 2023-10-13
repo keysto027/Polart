@@ -21,6 +21,9 @@
     
   }
 
+  
+  
+
   .header .logo{
 
     width: 285px;
@@ -63,6 +66,12 @@
 
   }
 
+  #check{
+
+    display: none;
+
+  }
+
   .icons{
 
     font-size: 2.8rem;
@@ -94,24 +103,48 @@
 
     }
 
+    #check:checked~.icons #menu-icon{
+
+      display: none;
+
+    }
+
+    .icons #close-icon{
+
+      display: none;
+
+    }
+
+    #check:checked~.icons #close-icon{
+
+      display: block;
+
+    }
+
     .header ul{
 
       position: absolute;
-      top: 76px;
+      top: 71px;
       left: 0;
       width: 100%;
-      height: 17.7rem;
-      background: rgb(186, 178, 178);
+      height: 55rem;
+      background: rgb(243, 241, 241);
+      backdrop-filter: blur(50px);
+      flex-direction: column;
+      display: flex;
+      box-shadow: inset 0 5px 23px rgba(0, 0, 0, 0.31);
 
 
     }
 
     .header ul li  a{
 
-      display: block;
+      display: flex;
       font-size: 2rem;
       margin: 1.5rem 0;
       text-align: center;
+      flex-direction: column;
+      
       
 
     }
