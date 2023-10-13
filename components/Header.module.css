@@ -101,9 +101,7 @@
 
       display: inline-flex;
 
-    }
-
-    #check:checked~.icons #menu-icon{
+    }#check:checked~.icons #menu-icon{
 
       display: none;
 
@@ -120,6 +118,8 @@
       display: block;
 
     }
+
+    
 
     .header ul{
 
