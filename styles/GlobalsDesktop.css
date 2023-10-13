@@ -219,11 +219,12 @@ transform: translateY(20%);
   width: calc(76rem);
   min-height: calc(100vh - 280px);
   min-height: 465px;
-  border-radius: 20px;
+  border-radius: 40px;
   justify-content: flex-start;
   align-content: stretch;
   flex: 1;
   min-width: 80%;
+  background-color: #59b87a;
   
 
 }
@@ -232,7 +233,7 @@ transform: translateY(20%);
   position: absolute;
   top: 2rem;
   left: 27rem;
-  font-size: 34px;
+  font-size: 50px;
   color: #196333;
 }
 
@@ -285,8 +286,8 @@ transform: translateY(20%);
   left: 50%;
   top: 90%;
   transform: translate(-50%, -50%) scale(0);
-  font-size: 16px;
-
+  font-size: 25px;
+  z-index: 0;
   transition: .3s;
 
 
@@ -411,4 +412,23 @@ transform: translateY(20%);
     max-width: 450px;
 }
 
+
+@media  (max-width: 600px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+  
 
