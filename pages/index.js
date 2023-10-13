@@ -30,6 +30,8 @@ export default function Home() {
             href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
           <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
           
         </Head>
 
@@ -56,7 +58,7 @@ export default function Home() {
       
           <div className="container2">
 
-              <h2 className="tittle"> Entra a la comunidad</h2>
+              <h2 className="tittle"> Redes Sociales</h2>
 
             <div class="social-menu">
               <div class="social-icon">
