@@ -11,7 +11,12 @@ export default function Header({ logoSrc  }) {
   
       <div class={styles.container}>
         <header className={styles.header}>
+
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
+
+        <label for="" className={styles.icons}>
+            <i class='bx bx-menu'></i>
+        </label>
             <ul>
               <li><a href="/">Inicio</a></li>
               <li><a href="/Nosotros">Nosotros</a></li>
