@@ -101,22 +101,24 @@
 
       display: inline-flex;
 
-    }#check:checked~.icons #menuicon{
-
-      display: none;
-
-    }
-
-    .icons #close-icon{
-
-      display: none;
-
-    }
-
-    #check:checked~.icons #closeicon{
-
+    }.menuicon {
       display: block;
-
+    }
+    
+    /* Estilo del icono de cierre (cuando el checkbox está marcado) */
+    .closeicon {
+      display: none;
+    }
+    
+    /* En HeaderMobile.module.css */
+    /* Estilo del icono del menú (cuando el checkbox está marcado) */
+    #check:checked ~ .icons .menuicon {
+      display: none;
+    }
+    
+    /* Estilo del icono de cierre */
+    #check:checked ~ .icons .closeicon {
+      display: block;
     }
 
     
