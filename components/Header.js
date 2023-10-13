@@ -12,12 +12,12 @@ export default function Header({ logoSrc }) {
     <div className={styles.container}>
       <header className={styles.header}>
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
-        <input
+        <input>
           type="checkbox"
           id={styles.check}
           checked={isChecked}
           onChange={handleCheckboxChange}
-        />
+        </input>
         <label htmlFor={styles.check} className={styles.icons}>
           <i className={`bx ${isChecked ? styles.closeicon : styles.menuicon}`}></i>
         </label>
