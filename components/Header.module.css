@@ -114,25 +114,26 @@
 
       display: inline-flex;
 
+    }.menuicon {
+      display: block;
+    }
+    
+    /* Estilo del icono de cierre (cuando el checkbox está marcado) */
+    .closeicon {
+      display: none;
     }
 
-    #check:checked~.icons #MenuIcon{
+    .icons #close-icon{
 
       display: none;
-
     }
 
-    .icons #CloseIcon{
-
-      display: none;
-
-    }
-
-    #check:checked~.icons #CloseIcon{
+    #check:checked~.icons #close-icon{
 
       display: block;
-
     }
+
+    
 
     .header ul{
 
