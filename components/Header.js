@@ -13,9 +13,10 @@ export default function Header({ logoSrc  }) {
         <header className={styles.header}>
 
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
-
+        <input type="checkbox" id="check"></input>
         <label for="" className={styles.icons}>
-            <i class='bx bx-menu'></i>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i> 
         </label>
             <ul>
               <li><a href="/">Inicio</a></li>
