@@ -268,7 +268,7 @@ transform: translateY(20%);
   background: white;
   border-radius: 50%;
   text-align: center;
-  margin: 0 50px;
+  margin: 0 5px;
   box-shadow: 0 4px 4px rgba(0,0,0, .3);
 
 }
@@ -336,6 +336,12 @@ transform: translateY(20%);
 
 
   background: #0795cd;
+
+}
+
+.icon1{
+
+  left: 10rem;
 
 }
 
