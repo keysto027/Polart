@@ -1,18 +1,23 @@
-
+import Link from 'next/link'
 import styles from './Header.module.css'
-
+import Mobilestyles from './HeaderMobile.module.css'
+import { useState } from "react";
 
 
 export default function Header({ logoSrc  }) {
   return (
+  
 
-
-
+  
       <div class={styles.container}>
         <header className={styles.header}>
-
+       
         <img src="/Logo.png" alt="Costa Norte" className={styles.logo} />
-        
+        <input type="checkbox" id="check"></input>
+        <label for="" className={styles.icons}>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i> 
+        </label>
             <ul>
               <li><a href="/">Inicio</a></li>
               <li><a href="/Nosotros">Nosotros</a></li>
@@ -20,17 +25,18 @@ export default function Header({ logoSrc  }) {
               <li><a href="/Novedades">Novedades</a></li>
               <li><a href="/Empleo">Empleo</a></li>
               <li><a href="/Contacto">Contacto</a></li>
-            </ul>
+            </ul>            
         </header>
       </div>
 
-
-
-
-
+      
+  
+  
+    
 
   );
 }
+
 
 
 
