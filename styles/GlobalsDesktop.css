@@ -37,9 +37,9 @@ main {
 .section
 {
 
-  min-height: 170rem;
+  min-height: 200rem;
   display: flex;
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 .container1{
